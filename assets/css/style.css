@@ -1,10 +1,10 @@
 /* =========================================================
    SYNCROZZ Design System v1.0
-   Platform Panduan Table 4
+    Panduan Table 4
 ========================================================= */
 
 /* ---------- Google Font ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 /* ---------- Root ---------- */
 :root{
@@ -45,13 +45,17 @@ html{
 
 body{
 
-    font-family:'Inter',sans-serif;
+    font-family:'Lexend',sans-serif;
 
     background:var(--background);
 
     color:var(--text);
 
-    line-height:1.6;
+    line-height:1.7;
+
+    -webkit-font-smoothing:antialiased;
+
+    -moz-osx-font-smoothing:grayscale;
 
 }
 
@@ -184,39 +188,128 @@ body{
 
 }
 
+/* =========================================================
+   BADGE COMPONENT
+========================================================= */
+
 .tags{
 
     display:flex;
 
     flex-wrap:wrap;
 
-    gap:15px;
+    justify-content:center;
+
+    gap:16px;
+
+    margin-top:24px;
 
 }
 
-.tags button{
+.badge{
 
-    padding:12px 20px;
+    display:inline-flex;
 
-    border:none;
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:12px 22px;
 
     border-radius:999px;
 
-    background:white;
+    text-decoration:none;
 
-    cursor:pointer;
+    font-family:'Lexend',sans-serif;
 
-    box-shadow:var(--shadow);
+    font-size:1rem;
 
-    transition:.25s;
+    font-weight:500;
+
+    white-space:nowrap;
+
+    transition:all .25s ease;
+
+    box-shadow:0 1px 2px rgba(15,23,42,.05);
 
 }
 
-.tags button:hover{
+.badge::before{
 
-    background:var(--primary);
+    content:"";
 
-    color:white;
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:currentColor;
+
+    flex-shrink:0;
+
+}
+
+.badge:hover{
+
+    transform:translateY(-2px);
+
+    filter:brightness(.97);
+
+}
+
+/* =========================================================
+   BADGE COLORS
+========================================================= */
+
+.badge-blue{
+
+    background:#E8F1FF;
+    color:#2563EB;
+
+}
+
+.badge-purple{
+
+    background:#F4E8FF;
+    color:#7C3AED;
+
+}
+
+.badge-green{
+
+    background:#EAF8EC;
+    color:#15803D;
+
+}
+
+.badge-yellow{
+
+    background:#FFF8DB;
+    color:#B45309;
+
+}
+
+.badge-red{
+
+    background:#FDECEC;
+    color:#DC2626;
+
+}
+
+.badge-teal{
+
+    background:#EAFBF8;
+    color:#0F766E;
+
+}
+
+.badge-indigo{
+
+    background:#EEF2FF;
+    color:#4338CA;
 
 }
 
@@ -329,56 +422,6 @@ body{
     border-color:var(--primary);
 
     transform:translateY(-2px);
-
-}
-
-/* =========================================================
-   POPULAR
-========================================================= */
-
-.popular{
-
-    padding-bottom:90px;
-
-}
-
-.popular h2{
-
-    text-align:center;
-
-    margin-bottom:35px;
-
-}
-
-.tags{
-
-    justify-content:center;
-
-}
-
-.tags button{
-
-    padding:14px 22px;
-
-    font-weight:600;
-
-    background:white;
-
-}
-
-.tags button:hover{
-
-    transform:translateY(-4px);
-
-}
-
-/* =========================================================
-   GUIDE
-========================================================= */
-
-.guide{
-
-    border:1px solid var(--border);
 
 }
 
