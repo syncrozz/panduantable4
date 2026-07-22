@@ -7,8 +7,12 @@ export default class GuideService {
 
         const path = `${CONFIG.PATHS.GUIDES}${slug}/guide.json`;
 
-        return JsonLoader.load(path);
+        const data = await JsonLoader.load(path);
+
+return new Guide(data);
 
     }
 
 }
+
+import Guide from "../models/Guide.js";
