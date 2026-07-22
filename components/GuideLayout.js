@@ -63,21 +63,23 @@ Digunakan untuk metadata / search sahaja. -->
 
             ${sections}
 
-            <footer class="guide-pagination">
+<footer class="guide-pagination">
 
-                ${previous ? `
-                    <a class="guide-prev" href="?guide=${previous.slug}">
-                        ← ${previous.title}
-                    </a>
-                ` : `<span></span>`}
+    ${previous ? `
+        <a class="guide-prev" href="?guide=${previous.slug}" aria-label="${previous.title}">
+    <span class="arrow">←</span>
+    <span class="title">${previous.title}</span>
+</a>
+    ` : `<span></span>`}
 
-                ${next ? `
-                    <a class="guide-next" href="?guide=${next.slug}">
-                        ${next.title} →
-                    </a>
-                ` : ``}
+    ${next ? `
+        <a class="guide-next" href="?guide=${next.slug}" aria-label="${next.title}">
+    <span class="title">${next.title}</span>
+    <span class="arrow">→</span>
+</a>
+    ` : ``}
 
-            </footer>
+</footer>
 
         </article>
     `;

@@ -513,13 +513,61 @@ body{
 
 .guide-pagination a{
 
+    display:flex;
+
+    align-items:center;
+
+    gap:0;
+
     color:var(--primary);
 
     text-decoration:none;
 
     font-weight:500;
 
-    transition:.2s;
+    transition:.25s ease;
+
+}
+
+.guide-pagination .arrow{
+
+    font-size:1.3rem;
+
+    line-height:1;
+
+}
+
+.guide-pagination .title{
+
+    max-width:0;
+
+    overflow:hidden;
+
+    white-space:nowrap;
+
+    opacity:0;
+
+    transition:all .25s ease;
+
+}
+
+.guide-prev:hover .title{
+
+    max-width:260px;
+
+    opacity:1;
+
+    margin-left:10px;
+
+}
+
+.guide-next:hover .title{
+
+    max-width:260px;
+
+    opacity:1;
+
+    margin-right:10px;
 
 }
 
