@@ -70,4 +70,38 @@ function initSearch() {
 
     });
 
+        // Tutup result apabila klik di luar search
+
+    document.addEventListener("click", (e) => {
+
+        if (!e.target.closest(".search-box")) {
+
+            results.innerHTML = "";
+
+        }
+
+    });
+
+    // Tekan ESC untuk tutup search result
+
+    document.addEventListener("keydown", (e) => {
+
+        if (e.key === "Escape") {
+
+            results.innerHTML = "";
+
+            input.blur();
+
+        }
+
+    });
+
+    // Tutup result selepas pengguna klik salah satu hasil
+
+    results.addEventListener("click", () => {
+
+        results.innerHTML = "";
+
+    });
+
 }
