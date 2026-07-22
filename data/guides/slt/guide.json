@@ -2,21 +2,47 @@
     "id": "slt",
     "title": "Student Learning Time (SLT)",
     "slug": "slt",
-    "summary": "Panduan asas pengiraan Student Learning Time mengikut MQA.",
+    "category": "building-block",
+    "summary": "Panduan memahami konsep Student Learning Time (SLT), kaedah pengiraan serta pengagihannya dalam pembinaan Table 4.",
+
+    "keywords": [
+        "SLT",
+        "Student Learning Time",
+        "OBE",
+        "Table 4",
+        "MQA"
+    ],
 
     "content": {
 
-        "introduction": "Student Learning Time (SLT) ialah jumlah masa yang diperuntukkan kepada pelajar untuk mencapai hasil pembelajaran sesuatu kursus.",
+        "introduction": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan bukan bersemuka (NF2F).",
 
-        "concept": "SLT merangkumi aktiviti pembelajaran secara bersemuka (F2F) dan bukan bersemuka (NF2F) termasuk pembelajaran kendiri, tugasan dan persediaan pentaksiran.",
+        "purpose": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan.",
 
-        "principle": "Jumlah keseluruhan SLT hendaklah selaras dengan nilai kredit kursus yang ditetapkan oleh MQA, iaitu 1 kredit bersamaan 40 jam SLT.",
+        "calculation": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F.",
 
-        "example": "Sebagai contoh, kursus 2 kredit mempunyai jumlah 80 jam SLT yang diagihkan kepada aktiviti F2F dan NF2F mengikut kesesuaian reka bentuk kursus.",
+        "distribution": "Pengagihan SLT hendaklah mengambil kira kuliah, tutorial, amali, pembelajaran kendiri, tugasan, projek, pembentangan, ulang kaji dan peperiksaan supaya jumlah keseluruhan memenuhi jam SLT yang ditetapkan.",
 
-        "faq": "Bagaimanakah SLT dikira? Jumlah masa bagi semua aktiviti pembelajaran dijumlahkan sehingga mencapai nilai SLT yang diperlukan.", 
+        "application": "Dalam Table 4, setiap topik perlu mempunyai agihan SLT yang sesuai berdasarkan tahap kesukaran pembelajaran dan bentuk pentaksiran. Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi.",
 
-        "commonMistakes": "Kesilapan lazim semasa membina Table 4."
+        "commonMistakes": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
 
-    }
+    },
+
+    "related": [
+        "f2f",
+        "nf2f",
+        "assessment",
+        "table4"
+    ],
+
+    "references": [
+        "Malaysian Qualifications Agency (MQA)",
+        "Code of Practice for Programme Accreditation (COPPA)"
+    ],
+
+    "order": 13,
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-22",
+    "status": "published"
 }
