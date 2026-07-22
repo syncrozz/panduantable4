@@ -27,6 +27,30 @@ export default function GuideLayout(guide) {
 
             </section>
 
+            <section>
+
+                <h2>Prinsip</h2>
+
+                <p>${guide.content.principle}</p>
+
+            </section>
+
+            <section>
+
+                <h2>Contoh</h2>
+
+                <p>${guide.content.example}</p>
+
+            </section>
+
+            <section>
+
+                <h2>FAQ</h2>
+
+                <p>${guide.content.faq}</p>
+
+            </section>
+
         </article>
     `;
 
