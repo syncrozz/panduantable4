@@ -1,20 +1,46 @@
 {
     "id": "f2f",
-    "title": "Face-to-Face (F2F)",
+    "title": "Pembelajaran Bersemuka (Face-to-Face, F2F)",
     "slug": "f2f",
-    "summary": "Panduan aktiviti pembelajaran secara bersemuka.",
+    "category": "building-block",
+    "summary": "Panduan memahami peranan pembelajaran bersemuka (F2F) dalam pengagihan Student Learning Time (SLT) dan pembinaan Table 4.",
+
+    "keywords": [
+        "F2F",
+        "Face-to-Face",
+        "SLT",
+        "OBE",
+        "Table 4"
+    ],
 
     "content": {
 
-        "introduction": "Kandungan sedang dibangunkan.",
+        "introduction": "Pembelajaran Bersemuka (Face-to-Face, F2F) merujuk kepada aktiviti pembelajaran yang berlaku secara langsung antara pensyarah dan pelajar seperti kuliah, tutorial, amali, makmal atau bengkel.",
 
-        "concept": "Kandungan sedang dibangunkan.",
+        "purpose": "F2F digunakan untuk menyampaikan konsep baharu, membimbing pembelajaran, memberi maklum balas serta membina interaksi secara langsung antara pensyarah dan pelajar.",
 
-        "principle": "Kandungan sedang dibangunkan.",
+        "activities": "Aktiviti F2F boleh merangkumi kuliah, tutorial, demonstrasi, pembentangan, makmal, bengkel, simulasi dan perbincangan secara bersemuka.",
 
-        "example": "Kandungan sedang dibangunkan.",
+        "relationship": "Dalam pengiraan Student Learning Time (SLT), masa F2F perlu diseimbangkan dengan pembelajaran bukan bersemuka (NF2F) supaya jumlah jam pembelajaran memenuhi keperluan kredit kursus.",
 
-        "faq": "Kandungan sedang dibangunkan."
+        "application": "Semasa membina Table 4, jam F2F ditentukan berdasarkan strategi PdP yang dipilih bagi setiap topik pembelajaran.",
 
-    }
+        "commonMistakes": "Kesilapan yang sering berlaku ialah memberikan terlalu banyak masa F2F tanpa menyediakan ruang pembelajaran kendiri yang mencukupi."
+
+    },
+
+    "related": [
+        "slt",
+        "nf2f",
+        "assessment"
+    ],
+
+    "references": [
+        "Malaysian Qualifications Agency (MQA)"
+    ],
+
+    "order": 14,
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-22",
+    "status": "published"
 }

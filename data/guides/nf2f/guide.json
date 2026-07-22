@@ -1,20 +1,46 @@
 {
     "id": "nf2f",
-    "title": "Non Face-to-Face (NF2F)",
+    "title": "Pembelajaran Bukan Bersemuka (Non Face-to-Face, NF2F)",
     "slug": "nf2f",
-    "summary": "Panduan aktiviti pembelajaran bukan bersemuka.",
+    "category": "building-block",
+    "summary": "Panduan memahami peranan pembelajaran bukan bersemuka (NF2F) dalam pengagihan Student Learning Time (SLT) dan pembinaan Table 4.",
+
+    "keywords": [
+        "NF2F",
+        "Non Face-to-Face",
+        "SLT",
+        "OBE",
+        "Table 4"
+    ],
 
     "content": {
 
-        "introduction": "Kandungan sedang dibangunkan.",
+        "introduction": "Pembelajaran Bukan Bersemuka (Non Face-to-Face, NF2F) merujuk kepada semua aktiviti pembelajaran yang dilakukan oleh pelajar secara kendiri di luar waktu kuliah.",
 
-        "concept": "Kandungan sedang dibangunkan.",
+        "purpose": "NF2F memberi peluang kepada pelajar mengukuhkan kefahaman melalui bacaan, latihan, penyelidikan, perbincangan, refleksi dan penyediaan tugasan.",
 
-        "principle": "Kandungan sedang dibangunkan.",
+        "activities": "Aktiviti NF2F termasuk pembelajaran kendiri, bacaan, penyelidikan, latihan, projek, kajian kes, pembentangan, ulang kaji dan persediaan peperiksaan.",
 
-        "example": "Kandungan sedang dibangunkan.",
+        "relationship": "Semakin tinggi tahap kesukaran sesuatu topik, semakin tinggi keperluan masa NF2F bagi memastikan pelajar mempunyai masa yang mencukupi untuk mencapai Course Learning Outcomes (CLO).",
 
-        "faq": "Kandungan sedang dibangunkan."
+        "application": "Dalam Table 4, pengagihan NF2F hendaklah mengambil kira tahap kesukaran topik, bentuk pentaksiran dan strategi pengajaran yang digunakan.",
 
-    }
+        "commonMistakes": "Kesilapan yang sering berlaku ialah menetapkan masa NF2F yang terlalu rendah sehingga tidak mencerminkan beban pembelajaran sebenar pelajar."
+
+    },
+
+    "related": [
+        "slt",
+        "f2f",
+        "assessment"
+    ],
+
+    "references": [
+        "Malaysian Qualifications Agency (MQA)"
+    ],
+
+    "order": 15,
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-22",
+    "status": "published"
 }
