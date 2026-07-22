@@ -1,3 +1,5 @@
+import GuideLayout from "../../components/GuideLayout.js";
+
 export default class Renderer {
 
     static renderGuide(guide) {
@@ -15,10 +17,7 @@ export default class Renderer {
 
         }
 
-        app.innerHTML = `
-            <h1>${guide.title}</h1>
-            <p>${guide.summary}</p>
-        `;
+        app.innerHTML = GuideLayout(guide);
 
     }
 
