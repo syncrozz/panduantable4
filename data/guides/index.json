@@ -1,0 +1,47 @@
+[
+    {
+        "slug": "table4",
+        "title": "Table 4",
+        "category": "foundation"
+    },
+    {
+        "slug": "clo",
+        "title": "Course Learning Outcomes (CLO)",
+        "category": "building-block"
+    },
+    {
+        "slug": "plo",
+        "title": "Programme Learning Outcomes (PLO)",
+        "category": "building-block"
+    },
+    {
+        "slug": "assessment",
+        "title": "Pentaksiran (Assessment)",
+        "category": "building-block"
+    },
+    {
+        "slug": "slt",
+        "title": "Student Learning Time (SLT)",
+        "category": "building-block"
+    },
+    {
+        "slug": "f2f",
+        "title": "Face-to-Face Learning (F2F)",
+        "category": "building-block"
+    },
+    {
+        "slug": "nf2f",
+        "title": "Non Face-to-Face Learning (NF2F)",
+        "category": "building-block"
+    },
+    {
+        "slug": "mqf",
+        "title": "Malaysian Qualifications Framework (MQF)",
+        "category": "building-block"
+    },
+    {
+        "slug": "jsu",
+        "title": "Jadual Spesifikasi Ujian (JSU)",
+        "category": "building-block"
+    }
+]

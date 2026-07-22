@@ -1,0 +1,125 @@
+/* =========================================================
+   COMPONENTS
+========================================================= */
+
+/* ---------- Search ---------- */
+
+.search-box{
+
+    margin:50px auto 0;
+
+    max-width:700px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    height:62px;
+
+    padding:18px 22px;
+
+    border-radius:18px;
+
+    border:1px solid var(--border);
+
+    background:white;
+
+    font-size:1rem;
+
+    outline:none;
+
+    box-shadow:var(--shadow);
+
+    transition:.25s;
+
+}
+
+.search-box input:focus{
+
+    border-color:var(--primary);
+
+    transform:translateY(-2px);
+
+}
+
+/* ---------- Badge ---------- */
+
+.tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:16px;
+
+    margin-top:24px;
+
+}
+
+.badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:12px 22px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-family:'Lexend',sans-serif;
+
+    font-size:1rem;
+
+    font-weight:500;
+
+    white-space:nowrap;
+
+    transition:all .25s ease;
+
+    box-shadow:0 1px 2px rgba(15,23,42,.05);
+
+}
+
+.badge::before{
+
+    content:"";
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:currentColor;
+
+    flex-shrink:0;
+
+}
+
+.badge:hover{
+
+    transform:translateY(-2px);
+
+    filter:brightness(.97);
+
+}
+
+/* ---------- Badge Colors ---------- */
+
+.badge-blue{background:#E8F1FF;color:#2563EB;}
+.badge-purple{background:#F4E8FF;color:#7C3AED;}
+.badge-green{background:#EAF8EC;color:#15803D;}
+.badge-yellow{background:#FFF8DB;color:#B45309;}
+.badge-red{background:#FDECEC;color:#DC2626;}
+.badge-teal{background:#EAFBF8;color:#0F766E;}
+.badge-indigo{background:#EEF2FF;color:#4338CA;}

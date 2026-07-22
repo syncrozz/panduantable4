@@ -4,11 +4,9 @@ export default function GuideLayout(guide) {
 
     const sections = Object.entries(guide.content)
         .map(([key, value]) => `
-            <section id="${key}">
+            <section id="${key}" class="guide-section">
 
-                <h2>${formatTitle(key)}</h2>
-
-                <div>
+                <div class="guide-content">
                     ${MarkdownRenderer.render(value)}
                 </div>
 
@@ -57,7 +55,10 @@ export default function GuideLayout(guide) {
 function formatTitle(text) {
 
     return text
+        .replace(/[-_]/g, " ")
         .replace(/([A-Z])/g, " $1")
-        .replace(/^./, c => c.toUpperCase());
+        .replace(/\s+/g, " ")
+        .trim()
+        .replace(/\b\w/g, c => c.toUpperCase());
 
 }

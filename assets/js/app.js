@@ -1,29 +1,73 @@
 import CONFIG from "../../config/config.js";
 import GuideService from "../../core/services/GuideService.js";
+import SearchService from "../../core/SearchService.js";
 import Renderer from "../../core/renderer/Renderer.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
     console.log(`${CONFIG.APP.NAME} v${CONFIG.APP.VERSION}`);
 
+    await loadGuide();
+
+    initSearch();
+
+});
+
+async function loadGuide() {
+
     try {
 
         const params = new URLSearchParams(window.location.search);
 
-const slug = params.get("guide") || "table4";
+        const slug = params.get("guide") || "table4";
 
-const guide = await GuideService.getGuide(slug);
+        const guide = await GuideService.getGuide(slug);
 
         Renderer.renderGuide(guide);
 
     } catch (error) {
 
-    console.error("Application Error:", error);
+        console.error("Application Error:", error);
 
-    Renderer.renderGuide(null);
+        Renderer.renderGuide(null);
+
+    }
 
 }
 
-    
+function initSearch() {
 
-});
+    const input = document.getElementById("searchInput");
+
+    const results = document.getElementById("searchResults");
+
+    if (!input || !results) return;
+
+    input.addEventListener("input", async (e) => {
+
+        const keyword = e.target.value.trim();
+
+        if (!keyword) {
+
+            results.innerHTML = "";
+
+            return;
+
+        }
+
+        const guides = await GuideService.getAllGuides();
+
+        const matches = SearchService.search(guides, keyword);
+
+        results.innerHTML = matches.map(guide => `
+
+            <a class="search-item" href="?guide=${guide.slug}">
+                <strong>${guide.title}</strong><br>
+                <small>${guide.summary}</small>
+            </a>
+
+        `).join("");
+
+    });
+
+}
