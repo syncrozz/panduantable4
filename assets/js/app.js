@@ -1,5 +1,6 @@
 import CONFIG from "../../config/config.js";
 import GuideService from "../../core/services/GuideService.js";
+import Renderer from "../../core/renderer/Renderer.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const guide = await GuideService.getGuide("table4");
 
-        console.log("Guide Loaded:", guide);
+        Renderer.renderGuide(guide);
 
     } catch (error) {
 
