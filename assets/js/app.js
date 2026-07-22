@@ -19,7 +19,7 @@ const guide = await GuideService.getGuide(slug);
 
     } catch (error) {
 
-        console.error(error);
+        Renderer.renderGuide(null);
 
     }
 
