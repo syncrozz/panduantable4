@@ -11,6 +11,22 @@ export default function GuideLayout(guide) {
 
             </header>
 
+            <section>
+
+                <h2>Pengenalan</h2>
+
+                <p>${guide.content.introduction}</p>
+
+            </section>
+
+            <section>
+
+                <h2>Konsep</h2>
+
+                <p>${guide.content.concept}</p>
+
+            </section>
+
         </article>
     `;
 

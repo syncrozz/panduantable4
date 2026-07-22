@@ -2,5 +2,11 @@
     "id": "table4",
     "title": "Panduan Table 4",
     "slug": "table4",
-    "summary": "Panduan asas pembinaan Table 4."
+    "summary": "Panduan asas pembinaan Table 4.",
+
+    "content": {
+        "introduction": "Table 4 merupakan dokumen utama dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE).",
+
+        "concept": "Table 4 menghubungkan CLO, PLO, kandungan kursus, kaedah pengajaran, pentaksiran dan Student Learning Time (SLT)."
+    }
 }

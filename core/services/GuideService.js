@@ -8,9 +8,20 @@ export default class GuideService {
 
         const path = `${CONFIG.PATHS.GUIDES}${slug}/guide.json`;
 
-        const data = await JsonLoader.load(path);
+        console.log(path);
 
-        return new Guide(data);
+        const data = await JsonLoader.load(path);
+        
+
+if (!data) {
+
+    return null;
+
+}
+
+console.log(new Guide(data));
+
+return new Guide(data);
 
     }
 

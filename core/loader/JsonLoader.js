@@ -10,6 +10,8 @@ export default class JsonLoader {
 
         }
 
+        console.log(await response.clone().json());
+
         return response.json();
 
     }

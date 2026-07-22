@@ -6,6 +6,7 @@ export default class Guide {
         this.title = data.title ?? "";
         this.slug = data.slug ?? "";
         this.summary = data.summary ?? "";
+        this.content = data.content ?? {};
 
     }
 
