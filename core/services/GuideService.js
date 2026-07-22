@@ -1,4 +1,5 @@
 import JsonLoader from "../loader/JsonLoader.js";
+import Guide from "../models/Guide.js";
 import CONFIG from "../../config/config.js";
 
 export default class GuideService {
@@ -9,10 +10,8 @@ export default class GuideService {
 
         const data = await JsonLoader.load(path);
 
-return new Guide(data);
+        return new Guide(data);
 
     }
 
 }
-
-import Guide from "../models/Guide.js";
