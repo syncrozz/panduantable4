@@ -43,7 +43,21 @@ export default function GuideLayout({
 
                 <h1>${guide.title}</h1>
 
-                <p>${guide.summary}</p>
+                <!-- Summary disembunyikan.
+Digunakan untuk metadata / search sahaja. -->
+
+                ${
+                    guide.heroImage ? `
+                    <div class="guide-hero">
+    <img
+    class="guide-hero-image"
+    src="assets/images/${guide.heroImage.src}"
+    alt="${guide.heroImage.alt}"
+    loading="lazy"
+>
+</div>
+                    ` : ""
+                }
 
             </header>
 

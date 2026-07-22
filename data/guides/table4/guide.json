@@ -3,7 +3,14 @@
     "title": "Panduan Table 4",
     "slug": "table4",
     "category": "foundation",
+
     "summary": "Panduan lengkap memahami konsep, struktur dan pembinaan Table 4 berasaskan Outcome-Based Education (OBE).",
+
+    "heroImage": {
+        "src": "guides/table4/T4001.webp",
+        "alt": "Table 4 sebagai Perlembagaan Kursus OBE",
+        "caption": "Table 4 merupakan dokumen induk yang menghubungkan CLO, PLO, kandungan kursus, PdP, pentaksiran dan Student Learning Time (SLT)."
+    },
 
     "keywords": [
         "Table 4",

@@ -6,6 +6,11 @@ export default class Guide {
         this.title = data.title ?? "";
         this.slug = data.slug ?? "";
         this.summary = data.summary ?? "";
+
+        // Hero Image
+        this.heroImage = data.heroImage ?? null;
+
+        // Content
         this.content = data.content ?? {};
 
     }
