@@ -495,13 +495,9 @@ body{
 
     display:flex;
 
-    justify-content:center;
+    justify-content:space-between;
 
     align-items:center;
-
-    flex-wrap:wrap;
-
-    gap:24px;
 
     margin-top:40px;
 
