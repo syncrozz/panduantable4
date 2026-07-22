@@ -1,18 +1,32 @@
+import CONFIG from "../../config/config.js";
+
 export default class JsonLoader {
 
     static async load(path) {
 
-        const response = await fetch(path);
+        try {
 
-        if (!response.ok) {
+            const response = await fetch(path);
+
+            if (!response.ok) {
+                return null;
+            }
+
+            const data = await response.json();
+
+            if (CONFIG.DEBUG) {
+                console.log(data);
+            }
+
+            return data;
+
+        } catch (error) {
+
+            console.error("Failed to load JSON:", path, error);
 
             return null;
 
         }
-
-        console.log(await response.clone().json());
-
-        return response.json();
 
     }
 

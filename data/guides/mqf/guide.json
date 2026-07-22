@@ -1,0 +1,7 @@
+@'
+{
+  "title": "MQF 2.0",
+  "description": "Modul ini sedang dibangunkan.",
+  "sections": []
+}
+'@ | Set-Content data\guides\mqf\guide.json

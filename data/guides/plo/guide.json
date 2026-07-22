@@ -1,0 +1,7 @@
+@'
+{
+  "title": "Programme Learning Outcomes (PLO)",
+  "description": "Modul ini sedang dibangunkan.",
+  "sections": []
+}
+'@ | Set-Content data\guides\plo\guide.json

@@ -1,0 +1,7 @@
+@'
+{
+  "title": "Course Learning Outcomes (CLO)",
+  "description": "Modul ini sedang dibangunkan.",
+  "sections": []
+}
+'@ | Set-Content data\guides\clo\guide.json

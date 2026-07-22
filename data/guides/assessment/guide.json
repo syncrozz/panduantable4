@@ -1,0 +1,7 @@
+@'
+{
+  "title": "Assessment",
+  "description": "Modul ini sedang dibangunkan.",
+  "sections": []
+}
+'@ | Set-Content data\guides\assessment\guide.json
