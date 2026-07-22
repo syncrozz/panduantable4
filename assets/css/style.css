@@ -271,3 +271,157 @@ body{
 .guide h2{
     margin-bottom: 12px;
 }
+
+/* =========================================================
+   HERO V2
+========================================================= */
+
+.hero{
+
+    padding:150px 0 110px;
+
+}
+
+.hero h1{
+
+    font-size:4rem;
+
+    line-height:1.05;
+
+    font-weight:700;
+
+    letter-spacing:-2px;
+
+    margin-bottom:18px;
+
+}
+
+.hero p{
+
+    font-size:1.25rem;
+
+    color:var(--text-light);
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+.search-box{
+
+    margin-top:50px;
+
+}
+
+.search-box input{
+
+    height:62px;
+
+    border-radius:18px;
+
+    transition:.25s;
+
+}
+
+.search-box input:focus{
+
+    border-color:var(--primary);
+
+    transform:translateY(-2px);
+
+}
+
+/* =========================================================
+   POPULAR
+========================================================= */
+
+.popular{
+
+    padding-bottom:90px;
+
+}
+
+.popular h2{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.tags{
+
+    justify-content:center;
+
+}
+
+.tags button{
+
+    padding:14px 22px;
+
+    font-weight:600;
+
+    background:white;
+
+}
+
+.tags button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* =========================================================
+   GUIDE
+========================================================= */
+
+.guide{
+
+    border:1px solid var(--border);
+
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+
+    border-top:1px solid var(--border);
+
+    margin-top:80px;
+
+    padding:30px 0;
+
+    background:white;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    color:var(--text-light);
+
+    font-size:.95rem;
+
+}
+
+.footer-content a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+}
+
+.footer-content a:hover{
+
+    text-decoration:underline;
+
+}
