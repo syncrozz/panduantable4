@@ -2,5 +2,19 @@
     "id": "slt",
     "title": "Student Learning Time (SLT)",
     "slug": "slt",
-    "summary": "Panduan asas pengiraan Student Learning Time mengikut MQA."
+    "summary": "Panduan asas pengiraan Student Learning Time mengikut MQA.",
+
+    "content": {
+
+        "introduction": "Student Learning Time (SLT) ialah jumlah masa yang diperuntukkan kepada pelajar untuk mencapai hasil pembelajaran sesuatu kursus.",
+
+        "concept": "SLT merangkumi aktiviti pembelajaran secara bersemuka (F2F) dan bukan bersemuka (NF2F) termasuk pembelajaran kendiri, tugasan dan persediaan pentaksiran.",
+
+        "principle": "Jumlah keseluruhan SLT hendaklah selaras dengan nilai kredit kursus yang ditetapkan oleh MQA, iaitu 1 kredit bersamaan 40 jam SLT.",
+
+        "example": "Sebagai contoh, kursus 2 kredit mempunyai jumlah 80 jam SLT yang diagihkan kepada aktiviti F2F dan NF2F mengikut kesesuaian reka bentuk kursus.",
+
+        "faq": "Bagaimanakah SLT dikira? Jumlah masa bagi semua aktiviti pembelajaran dijumlahkan sehingga mencapai nilai SLT yang diperlukan."
+
+    }
 }
