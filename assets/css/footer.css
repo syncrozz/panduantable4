@@ -18,13 +18,17 @@ footer{
 
     display:flex;
 
-    justify-content:space-between;
+    justify-content:center;
 
     align-items:center;
 
+    text-align:center;
+
+    gap:8px;
+
     color:var(--text-light);
 
-    font-size:.95rem;
+    font-size:.85rem;
 
 }
 

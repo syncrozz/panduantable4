@@ -1,6 +1,10 @@
 import MarkdownRenderer from "../core/renderer/MarkdownRenderer.js";
 
-export default function GuideLayout(guide) {
+export default function GuideLayout({
+    guide,
+    previous,
+    next
+}) {
 
     const sections = Object.entries(guide.content)
         .map(([key, value]) => `
@@ -31,8 +35,6 @@ export default function GuideLayout(guide) {
 
                 <nav class="guide-nav">
 
-                    <h3>Kandungan</h3>
-
                     <ul>
                         ${navigation}
                     </ul>
@@ -46,6 +48,22 @@ export default function GuideLayout(guide) {
             </header>
 
             ${sections}
+
+            <footer class="guide-pagination">
+
+                ${previous ? `
+                    <a class="guide-prev" href="?guide=${previous.slug}">
+                        ← ${previous.title}
+                    </a>
+                ` : `<span></span>`}
+
+                ${next ? `
+                    <a class="guide-next" href="?guide=${next.slug}">
+                        ${next.title} →
+                    </a>
+                ` : ``}
+
+            </footer>
 
         </article>
     `;

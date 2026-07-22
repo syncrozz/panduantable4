@@ -1,5 +1,8 @@
+console.log("APP START");
+
 import CONFIG from "../../config/config.js";
 import GuideService from "../../core/services/GuideService.js";
+import GuideRegistry from "../../core/services/GuideRegistry.js";
 import SearchService from "../../core/SearchService.js";
 import Renderer from "../../core/renderer/Renderer.js";
 
@@ -21,9 +24,11 @@ async function loadGuide() {
 
         const slug = params.get("guide") || "table4";
 
-        const guide = await GuideService.getGuide(slug);
+        await GuideRegistry.init();
 
-        Renderer.renderGuide(guide);
+const guide = await GuideService.getGuide(slug);
+
+Renderer.renderGuide(guide);
 
     } catch (error) {
 

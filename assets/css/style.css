@@ -51,7 +51,7 @@ body{
 
     color:var(--text);
 
-    line-height:1.7;
+    line-height:1.4;
 
     -webkit-font-smoothing:antialiased;
 
@@ -89,96 +89,12 @@ body{
 }
 
 /* =========================================================
-   HERO
-========================================================= */
-
-.hero{
-
-    padding:100px 0 70px;
-
-}
-
-.hero-content{
-
-    text-align:center;
-
-}
-
-.brand{
-
-    display:inline-block;
-
-    padding:8px 18px;
-
-    border-radius:999px;
-
-    background:#DBEAFE;
-
-    color:var(--primary);
-
-    font-weight:700;
-
-    letter-spacing:1px;
-
-    margin-bottom:25px;
-
-}
-
-.hero h1{
-
-    font-size:3rem;
-
-    margin-bottom:18px;
-
-}
-
-.hero p{
-
-    max-width:700px;
-
-    margin:auto;
-
-    color:var(--text-light);
-
-    font-size:1.1rem;
-
-}
-
-.search-box{
-
-    margin:45px auto 0;
-
-    max-width:700px;
-
-}
-
-.search-box input{
-
-    width:100%;
-
-    padding:18px 22px;
-
-    border-radius:16px;
-
-    border:1px solid var(--border);
-
-    background:white;
-
-    font-size:1rem;
-
-    outline:none;
-
-    box-shadow:var(--shadow);
-
-}
-
-/* =========================================================
    POPULAR
 ========================================================= */
 
 .popular{
 
-    padding-bottom:80px;
+    padding-bottom:0px;
 
 }
 
@@ -200,9 +116,9 @@ body{
 
     justify-content:center;
 
-    gap:16px;
+    gap:14px;
 
-    margin-top:24px;
+    margin-top:18px;
 
 }
 
@@ -224,7 +140,7 @@ body{
 
     font-family:'Lexend',sans-serif;
 
-    font-size:1rem;
+    font-size:0.8rem;
 
     font-weight:500;
 
@@ -324,7 +240,7 @@ body{
 .guide{
     background: #fff;
     border-radius: 16px;
-    padding: 40px;
+    padding: 32px;
     box-shadow: var(--shadow);
 }
 
@@ -333,7 +249,11 @@ body{
 }
 
 .guide-header h1{
-    margin-bottom: 10px;
+
+    font-size:1.8rem;
+
+    margin-bottom:10px;
+
 }
 
 .guide-header p{
@@ -345,11 +265,23 @@ body{
 }
 
 .guide-nav ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
+
+    list-style:none;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px 20px;
+
+    margin-top:16px;
+
+    padding:0;
+
 }
 
 .guide-nav a{
@@ -362,58 +294,118 @@ body{
 }
 
 .guide h2{
-    margin-bottom: 12px;
+
+    font-size:1.35rem;
+
+    margin-bottom:12px;
+
+}
+
+.guide h3{
+
+    font-size:1.15rem;
+
+}
+
+.guide p{
+
+    font-size:.95rem;
+
+    line-height:1.9;
+
 }
 
 /* =========================================================
-   HERO V2
+   HERO
 ========================================================= */
 
 .hero{
 
-    padding:150px 0 110px;
+    padding:50px 0 30px;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.brand{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:#DBEAFE;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:25px;
 
 }
 
 .hero h1{
 
-    font-size:4rem;
+    font-size:3.2rem;
 
-    line-height:1.05;
+    line-height:1.1;
 
     font-weight:700;
 
-    letter-spacing:-2px;
+    letter-spacing:-1px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 
 }
 
 .hero p{
 
-    font-size:1.25rem;
-
-    color:var(--text-light);
-
     max-width:500px;
 
     margin:auto;
+
+    color:var(--text-light);
+
+    font-size:1rem;
 
 }
 
 .search-box{
 
-    margin-top:50px;
+    max-width:650px;
+
+    margin:28px auto 0;
 
 }
 
 .search-box input{
 
-    height:62px;
+    width:100%;
+
+    height:52px;
+
+    padding:18px 22px;
 
     border-radius:18px;
 
-    transition:.25s;
+    border:1px solid var(--border);
+
+    background:#FFFFFF;
+
+    font-size:1rem;
+
+    outline:none;
+
+    box-shadow:var(--shadow);
+
+    transition:all .25s ease;
 
 }
 
@@ -426,18 +418,114 @@ body{
 }
 
 /* =========================================================
-   FOOTER
+   MOBILE
 ========================================================= */
 
-footer{
+@media (max-width:768px){
+
+    .container{
+
+        width:96%;
+
+    }
+
+    .hero{
+
+        padding:40px 0 24px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.6rem;
+
+        line-height:1.05;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .search-box{
+
+        max-width:100%;
+
+        margin:24px auto 0;
+
+    }
+
+    .search-box input{
+
+        height:56px;
+
+        font-size:1rem;
+
+    }
+
+    .tags{
+
+        gap:12px;
+
+        margin-top:16px;
+
+    }
+
+    .content{
+
+        padding:24px 0 40px;
+
+    }
+
+    .guide{
+
+        padding:20px;
+
+    }
+
+}
+
+/* =========================================================
+   GUIDE PAGINATION
+========================================================= */
+
+.guide-pagination{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:24px;
+
+    margin-top:40px;
+
+    padding-top:24px;
 
     border-top:1px solid var(--border);
 
-    margin-top:80px;
+}
 
-    padding:30px 0;
+.guide-pagination a{
 
-    background:white;
+    color:var(--primary);
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.2s;
+
+}
+
+.guide-pagination a:hover{
+
+    text-decoration:underline;
 
 }
 
@@ -445,13 +533,15 @@ footer{
 
     display:flex;
 
-    justify-content:space-between;
+    justify-content:center;
 
     align-items:center;
 
+    text-align:center;
+
     color:var(--text-light);
 
-    font-size:.95rem;
+    font-size:.85rem;
 
 }
 
@@ -460,6 +550,8 @@ footer{
     color:var(--primary);
 
     text-decoration:none;
+
+    font-weight:500;
 
 }
 

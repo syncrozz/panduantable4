@@ -1,4 +1,5 @@
 import GuideLayout from "../../components/GuideLayout.js";
+import GuideRegistry from "../services/GuideRegistry.js";
 
 console.log("=== RENDERER LOADED ===");
 
@@ -21,7 +22,17 @@ export default class Renderer {
 
         }
 
-        const html = GuideLayout(guide);
+        const previous = GuideRegistry.getPrevious(guide.slug);
+        const next = GuideRegistry.getNext(guide.slug);
+
+        console.log("Previous:", previous);
+        console.log("Next:", next);
+
+        const html = GuideLayout({
+            guide,
+            previous,
+            next
+        });
 
         console.log("Generated HTML:", html);
 
