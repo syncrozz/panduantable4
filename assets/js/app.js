@@ -8,7 +8,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
 
-        const guide = await GuideService.getGuide("table4");
+        const params = new URLSearchParams(window.location.search);
+
+const slug = params.get("guide") || "table4";
+
+const guide = await GuideService.getGuide(slug);
+
 
         Renderer.renderGuide(guide);
 
