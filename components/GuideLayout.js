@@ -1,3 +1,5 @@
+import MarkdownRenderer from "../core/renderer/MarkdownRenderer.js";
+
 export default function GuideLayout(guide) {
 
     const sections = Object.entries(guide.content)
@@ -6,38 +8,38 @@ export default function GuideLayout(guide) {
 
                 <h2>${formatTitle(key)}</h2>
 
-                <p>${value}</p>
+                <div>
+                    ${MarkdownRenderer.render(value)}
+                </div>
 
             </section>
         `)
         .join("");
 
-        const navigation = Object.keys(guide.content)
-    .map(key => `
-        <li>
-            <a href="#${key}">
-                ${formatTitle(key)}
-            </a>
-        </li>
-    `)
-    .join("");
+    const navigation = Object.keys(guide.content)
+        .map(key => `
+            <li>
+                <a href="#${key}">
+                    ${formatTitle(key)}
+                </a>
+            </li>
+        `)
+        .join("");
 
     return `
         <article class="guide">
 
             <header class="guide-header">
 
-            <nav class="guide-nav">
+                <nav class="guide-nav">
 
-    <h3>Kandungan</h3>
+                    <h3>Kandungan</h3>
 
-    <ul>
+                    <ul>
+                        ${navigation}
+                    </ul>
 
-        ${navigation}
-
-    </ul>
-
-</nav>
+                </nav>
 
                 <h1>${guide.title}</h1>
 

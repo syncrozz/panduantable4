@@ -219,3 +219,55 @@ body{
     color:white;
 
 }
+
+/* =========================================================
+   GUIDE
+========================================================= */
+
+.content{
+    padding: 40px 0 80px;
+}
+
+.guide{
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+}
+
+.guide-header{
+    margin-bottom: 40px;
+}
+
+.guide-header h1{
+    margin-bottom: 10px;
+}
+
+.guide-header p{
+    color: var(--text-light);
+}
+
+.guide-nav{
+    margin-bottom: 30px;
+}
+
+.guide-nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.guide-nav a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.guide section{
+    margin-top: 40px;
+}
+
+.guide h2{
+    margin-bottom: 12px;
+}

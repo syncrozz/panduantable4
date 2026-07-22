@@ -14,13 +14,16 @@ const slug = params.get("guide") || "table4";
 
 const guide = await GuideService.getGuide(slug);
 
-
         Renderer.renderGuide(guide);
 
     } catch (error) {
 
-        Renderer.renderGuide(null);
+    console.error("Application Error:", error);
 
-    }
+    Renderer.renderGuide(null);
+
+}
+
+    
 
 });

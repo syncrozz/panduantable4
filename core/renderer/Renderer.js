@@ -1,8 +1,12 @@
 import GuideLayout from "../../components/GuideLayout.js";
 
+console.log("=== RENDERER LOADED ===");
+
 export default class Renderer {
 
     static renderGuide(guide) {
+
+        console.log("Renderer:", guide);
 
         const app = document.getElementById("app");
 
@@ -17,7 +21,11 @@ export default class Renderer {
 
         }
 
-        app.innerHTML = GuideLayout(guide);
+        const html = GuideLayout(guide);
+
+        console.log("Generated HTML:", html);
+
+        app.innerHTML = html;
 
     }
 

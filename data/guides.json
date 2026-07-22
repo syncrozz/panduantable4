@@ -1,0 +1,26 @@
+[
+    {
+        "id": "table4",
+        "title": "Panduan Table 4",
+        "slug": "table4",
+        "category": "OBE"
+    },
+    {
+        "id": "slt",
+        "title": "Student Learning Time (SLT)",
+        "slug": "slt",
+        "category": "SLT"
+    },
+    {
+        "id": "f2f",
+        "title": "Face-to-Face (F2F)",
+        "slug": "f2f",
+        "category": "SLT"
+    },
+    {
+        "id": "nf2f",
+        "title": "Non Face-to-Face (NF2F)",
+        "slug": "nf2f",
+        "category": "SLT"
+    }
+]

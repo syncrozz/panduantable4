@@ -14,7 +14,9 @@
 
         "example": "Sebagai contoh, kursus 2 kredit mempunyai jumlah 80 jam SLT yang diagihkan kepada aktiviti F2F dan NF2F mengikut kesesuaian reka bentuk kursus.",
 
-        "faq": "Bagaimanakah SLT dikira? Jumlah masa bagi semua aktiviti pembelajaran dijumlahkan sehingga mencapai nilai SLT yang diperlukan."
+        "faq": "Bagaimanakah SLT dikira? Jumlah masa bagi semua aktiviti pembelajaran dijumlahkan sehingga mencapai nilai SLT yang diperlukan.", 
+
+        "commonMistakes": "Kesilapan lazim semasa membina Table 4."
 
     }
 }
