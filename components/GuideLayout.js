@@ -6,6 +6,10 @@ export default function GuideLayout({
     next
 }) {
 
+/* =========================================================
+   GUIDE PANELS
+========================================================= */
+
 const sections = Object.entries(guide.content)
     .map(([key, value], index) => `
         <section
@@ -23,6 +27,10 @@ const sections = Object.entries(guide.content)
     `)
     .join("");
 
+/* =========================================================
+   GUIDE NAVIGATION
+========================================================= */
+
 const navigation = Object.keys(guide.content)
     .map((key, index) => `
         <button
@@ -36,56 +44,90 @@ const navigation = Object.keys(guide.content)
     `)
     .join("");
 
+/* =========================================================
+   GUIDE LAYOUT
+========================================================= */
+
     return `
         <article class="guide">
 
+            <!-- =========================================================
+                 GUIDE HEADER
+            ========================================================= -->
+
             <header class="guide-header">
 
-<div class="guide-tabs">
+                <!-- =========================================================
+                     GUIDE TABS
+                ========================================================= -->
 
-    ${navigation}
+                <div class="guide-tabs">
 
-</div>
+                    ${navigation}
+
+                </div>
 
                 <h1>${guide.title}</h1>
 
                 <!-- Summary disembunyikan.
-Digunakan untuk metadata / search sahaja. -->
+                     Digunakan untuk metadata / search sahaja. -->
 
                 ${
                     guide.heroImage ? `
+                    <!-- =========================================================
+                         GUIDE HERO
+                    ========================================================= -->
+
                     <div class="guide-hero">
-    <img
-    class="guide-hero-image"
-    src="assets/images/${guide.heroImage.src}"
-    alt="${guide.heroImage.alt}"
-    loading="lazy"
->
-</div>
+
+                        <img
+                            class="guide-hero-image"
+                            src="assets/images/${guide.heroImage.src}"
+                            alt="${guide.heroImage.alt}"
+                            loading="lazy"
+                        >
+
+                    </div>
                     ` : ""
                 }
 
             </header>
 
+            <!-- =========================================================
+                 GUIDE PANELS
+            ========================================================= -->
+
             ${sections}
 
-<footer class="guide-pagination">
+            <!-- =========================================================
+                 GUIDE PAGINATION
+            ========================================================= -->
 
-    ${previous ? `
-        <a class="guide-prev" href="?guide=${previous.slug}" aria-label="${previous.title}">
-    <span class="arrow">←</span>
-    <span class="title">${previous.title}</span>
-</a>
-    ` : `<span></span>`}
+            <footer class="guide-pagination">
 
-    ${next ? `
-        <a class="guide-next" href="?guide=${next.slug}" aria-label="${next.title}">
-    <span class="title">${next.title}</span>
-    <span class="arrow">→</span>
-</a>
-    ` : ``}
+                ${previous ? `
+                    <a class="guide-prev"
+                       href="?guide=${previous.slug}"
+                       aria-label="${previous.title}">
 
-</footer>
+                        <span class="arrow">←</span>
+                        <span class="title">${previous.title}</span>
+
+                    </a>
+                ` : `<span></span>`}
+
+                ${next ? `
+                    <a class="guide-next"
+                       href="?guide=${next.slug}"
+                       aria-label="${next.title}">
+
+                        <span class="title">${next.title}</span>
+                        <span class="arrow">→</span>
+
+                    </a>
+                ` : ``}
+
+            </footer>
 
         </article>
     `;
