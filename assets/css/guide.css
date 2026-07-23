@@ -141,15 +141,27 @@
    GUIDE PANELS
 ========================================================= */
 
-.guide section{
+.guide-panel{
 
-    margin-top:40px;
+    display:none;
 
 }
 
-.guide h2{
+.guide-panel.active{
 
-    margin-bottom:12px;
+    display:block;
+
+}
+
+.guide-panel + .guide-panel{
+
+    margin-top:0;
+
+}
+
+.guide-content{
+
+    animation:fadeIn .25s ease;
 
 }
 
@@ -267,5 +279,29 @@
 .guide-content{
 
     width:100%;
+
+}
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(6px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
 
 }

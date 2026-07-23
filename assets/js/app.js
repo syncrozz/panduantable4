@@ -5,6 +5,7 @@ import GuideService from "../../core/services/GuideService.js";
 import GuideRegistry from "../../core/services/GuideRegistry.js";
 import SearchService from "../../core/SearchService.js";
 import Renderer from "../../core/renderer/Renderer.js";
+import GuideTabs from "./modules/GuideTabs.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
@@ -29,6 +30,8 @@ async function loadGuide() {
 const guide = await GuideService.getGuide(slug);
 
 Renderer.renderGuide(guide);
+
+GuideTabs.init();
 
     } catch (error) {
 
