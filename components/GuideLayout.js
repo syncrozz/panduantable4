@@ -6,40 +6,46 @@ export default function GuideLayout({
     next
 }) {
 
-    const sections = Object.entries(guide.content)
-        .map(([key, value]) => `
-            <section id="${key}" class="guide-section">
+const sections = Object.entries(guide.content)
+    .map(([key, value], index) => `
+        <section
+            id="${key}"
+            class="guide-panel ${index === 0 ? "active" : ""}"
+            data-tab="${key}">
 
-                <div class="guide-content">
-                    ${MarkdownRenderer.render(value)}
-                </div>
+            <div class="guide-content">
 
-            </section>
-        `)
-        .join("");
+                ${MarkdownRenderer.render(value)}
 
-    const navigation = Object.keys(guide.content)
-        .map(key => `
-            <li>
-                <a href="#${key}">
-                    ${formatTitle(key)}
-                </a>
-            </li>
-        `)
-        .join("");
+            </div>
+
+        </section>
+    `)
+    .join("");
+
+const navigation = Object.keys(guide.content)
+    .map((key, index) => `
+        <button
+            class="guide-tab ${index === 0 ? "active" : ""}"
+            data-tab="${key}"
+            type="button">
+
+            ${formatTitle(key)}
+
+        </button>
+    `)
+    .join("");
 
     return `
         <article class="guide">
 
             <header class="guide-header">
 
-                <nav class="guide-nav">
+<div class="guide-tabs">
 
-                    <ul>
-                        ${navigation}
-                    </ul>
+    ${navigation}
 
-                </nav>
+</div>
 
                 <h1>${guide.title}</h1>
 
