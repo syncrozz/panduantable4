@@ -7,10 +7,11 @@
     "summary": "Panduan lengkap memahami konsep, struktur dan pembinaan Table 4 berasaskan Outcome-Based Education (OBE).",
 
     "heroImage": {
-        "src": "guides/table4/T4001.webp",
-        "alt": "Table 4 sebagai Perlembagaan Kursus OBE",
-        "caption": "Table 4 merupakan dokumen induk yang menghubungkan CLO, PLO, kandungan kursus, PdP, pentaksiran dan Student Learning Time (SLT)."
-    },
+    "src": "guides/table4/T4001.webp",
+    "alt": "Table 4 sebagai Perlembagaan Kursus",
+
+    "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
+},
 
     "keywords": [
         "Table 4",
@@ -21,21 +22,56 @@
         "SLT"
     ],
 
-    "content": {
+    "sections": [
 
-        "asas": "Table 4 merupakan dokumen induk dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE). Ia menjadi rujukan utama bagi merancang hasil pembelajaran, kandungan kursus, strategi pengajaran, pentaksiran dan Student Learning Time (SLT).",
+        {
+            "id": "pengenalan",
+            "title": "1. Pengenalan",
 
-        "analogi": "Table 4 menghubungkan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, kaedah pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dalam satu dokumen yang saling berkaitan.",
+            "content": "Table 4 merupakan dokumen induk dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE). Ia menjadi rujukan utama bagi merancang hasil pembelajaran, kandungan kursus, strategi pengajaran, pentaksiran dan Student Learning Time (SLT)."
+        },
 
-        "situasi": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO).",
+        {
+            "id": "konsep",
+            "title": "2. Konsep Asas",
 
-        "contoh": "Sebagai contoh, CLO1 boleh dinilai melalui Kuiz, CLO2 melalui Pembentangan, manakala CLO3 melalui Projek Akhir. Setiap pentaksiran dipilih berdasarkan hasil pembelajaran yang ingin dicapai.",
+            "content": "Table 4 menghubungkan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, kaedah pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dalam satu dokumen yang saling berkaitan."
+        },
 
-        "tips": "Langkah pertama membina Table 4 ialah mengenal pasti Course Learning Outcomes (CLO). Selepas itu barulah kandungan kursus, strategi PdP, pentaksiran dan pengagihan Student Learning Time (SLT) disusun secara selaras.",
+        {
+            "id": "hubungan",
+            "title": "3. Hubungan Komponen",
 
-        "kesalahanBiasa": "Antara kesilapan yang sering berlaku ialah CLO tidak boleh diukur, pentaksiran tidak sejajar dengan CLO, kandungan kursus tidak menyokong hasil pembelajaran dan pengagihan Student Learning Time (SLT) yang tidak realistik."
+            "content": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO)."
+        },
 
-    },
+        {
+            "id": "contoh",
+            "title": "4. Contoh",
+
+            "content": "Sebagai contoh, CLO1 boleh dinilai melalui Kuiz, CLO2 melalui Pembentangan, manakala CLO3 melalui Projek Akhir. Setiap pentaksiran dipilih berdasarkan hasil pembelajaran yang ingin dicapai."
+        },
+
+        {
+            "id": "panduan",
+            "title": "5. Panduan Membina",
+
+            "content": "Langkah pertama membina Table 4 ialah mengenal pasti Course Learning Outcomes (CLO). Selepas itu barulah kandungan kursus, strategi PdP, pentaksiran dan pengagihan Student Learning Time (SLT) disusun secara selaras."
+        },
+
+        {
+            "id": "kesilapan",
+            "title": "6. Kesilapan Lazim",
+
+            "note": {
+                "type": "warning",
+                "content": "**Perhatian:** Elakkan kesilapan berikut semasa membina Table 4."
+            },
+
+            "content": "Antara kesilapan yang sering berlaku ialah CLO tidak boleh diukur, pentaksiran tidak sejajar dengan CLO, kandungan kursus tidak menyokong hasil pembelajaran dan pengagihan Student Learning Time (SLT) yang tidak realistik."
+        }
+
+    ],
 
     "related": [
         "clo",
@@ -50,7 +86,7 @@
     ],
 
     "order": 1,
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-22",
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-23",
     "status": "published"
 }

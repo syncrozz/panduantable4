@@ -1,0 +1,181 @@
+/* =========================================================
+   GUIDE TABLE
+========================================================= */
+
+.guide-table-wrapper{
+
+    width:100%;
+
+    overflow-x:auto;
+
+    margin:2rem 0;
+
+    border:1px solid var(--border-color,#dbe4ef);
+
+    border-radius:14px;
+
+    background:#fff;
+
+    box-shadow:0 8px 24px rgba(15,23,42,.05);
+
+}
+
+.guide-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    font-size:.95rem;
+
+}
+
+.guide-table thead{
+
+    background:#1e5aa8;
+
+    color:#fff;
+
+}
+
+.guide-table th{
+
+    padding:14px 16px;
+
+    text-align:left;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+.guide-table td{
+
+    padding:14px 16px;
+
+    border-top:1px solid #eef2f7;
+
+    vertical-align:top;
+
+}
+
+.guide-table tbody tr:nth-child(even){
+
+    background:#fafcff;
+
+}
+
+.guide-table tbody tr:hover{
+
+    background:#f2f7ff;
+
+}
+
+/* =========================================================
+   BADGE
+========================================================= */
+
+.guide-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:42px;
+
+    padding:.35rem .75rem;
+
+    border-radius:999px;
+
+    background:#1e5aa8;
+
+    color:#fff;
+
+    font-weight:700;
+
+    font-size:.85rem;
+
+}
+
+/* =========================================================
+   TAG
+========================================================= */
+
+.guide-tag{
+
+    display:inline-block;
+
+    padding:.4rem .8rem;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
+
+.guide-tag-blue{
+
+    background:#e8f1ff;
+
+    color:#1e5aa8;
+
+}
+
+.guide-tag-green{
+
+    background:#e8f8ee;
+
+    color:#1f7a3d;
+
+}
+
+.guide-tag-orange{
+
+    background:#fff3e5;
+
+    color:#b35b00;
+
+}
+
+.guide-tag-red{
+
+    background:#fdecec;
+
+    color:#b42318;
+
+}
+
+.guide-tag-purple{
+
+    background:#f2ecff;
+
+    color:#6941c6;
+
+}
+
+.guide-tag-gray{
+
+    background:#f3f4f6;
+
+    color:#4b5563;
+
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width:768px){
+
+    .guide-table{
+
+        min-width:700px;
+
+    }
+
+}

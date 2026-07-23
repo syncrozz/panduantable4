@@ -1,4 +1,5 @@
 import MarkdownRenderer from "../core/renderer/MarkdownRenderer.js";
+import GuideTable from "./guide/GuideTable.js";
 
 export default function GuideLayout({
     guide,
@@ -12,9 +13,7 @@ export default function GuideLayout({
 
 const panelItems = guide.sections
     ? guide.sections.map(section => ({
-        id: section.id,
-        title: section.title,
-        content: section.content
+        ...section
     }))
     : Object.entries(guide.content).map(([key, value]) => ({
         id: key,
@@ -70,7 +69,13 @@ const sections = panelItems
                         : ""
                 }
 
-                ${MarkdownRenderer.render(section.content)}
+                ${
+                    section.table
+                        ? GuideTable(section.table)
+                        : ""
+                }
+
+                ${MarkdownRenderer.render(section.content ?? "")}
 
             </div>
 
@@ -135,13 +140,29 @@ const navigation = panelItems
 
                     <div class="guide-hero">
 
-                        <img
-                            class="guide-hero-image"
-                            src="assets/images/${guide.heroImage.src}"
-                            alt="${guide.heroImage.alt}"
-                            loading="lazy">
+    <figure class="guide-hero-figure">
 
-                    </div>
+        <div class="guide-hero">
+
+    <img
+        class="guide-hero-image"
+        src="assets/images/${guide.heroImage.src}"
+        alt="${guide.heroImage.alt}"
+        loading="lazy">
+
+    ${
+        guide.heroImage.explanation
+            ? `
+            <div class="guide-hero-description">
+
+                ${MarkdownRenderer.render(guide.heroImage.explanation)}
+
+            </div>
+            `
+            : ""
+    }
+
+</div>
                     ` : ""
                 }
 

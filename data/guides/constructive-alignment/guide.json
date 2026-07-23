@@ -1,65 +1,69 @@
 {
-    "slug": "constructive-alignment",
-    "title": "Constructive Alignment",
-    "summary": "Konsep asas yang menjadi tunjang kepada Outcome-Based Education (OBE) dan pelaksanaan Table 4.",
-    "category": "foundation",
+    "id": "hubungan",
 
-    "sections": [
+    "title": "Hubungan Constructive Alignment dengan Table 4",
 
-        {
-            "title": "1. Pengenalan",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+    "content": "Hubungan antara Constructive Alignment dan Table 4 adalah seperti berikut.",
 
-        {
-            "title": "2. Apa itu Constructive Alignment?",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+    "table": {
 
-        {
-            "title": "3. Asas Teori Constructive Alignment",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+        "columns":[
 
-        {
-            "title": "4. Mengapa Constructive Alignment Penting?",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+            {
+                "key":"level",
+                "label":"Level",
+                "width":"90px"
+            },
 
-        {
-            "title": "5. Hubungan dengan Outcome-Based Education (OBE)",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+            {
+                "key":"component",
+                "label":"Komponen",
+                "width":"260px"
+            },
 
-        {
-            "title": "6. Hubungan dengan Table 4",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+            {
+                "key":"function",
+                "label":"Fungsi"
+            }
 
-        {
-            "title": "7. Hubungan dengan CLO, PLO, SLT dan Assessment",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+        ],
 
-        {
-            "title": "8. Analogi Mudah",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+        "rows":[
 
-        {
-            "title": "9. Contoh Aplikasi",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+            {
 
-        {
-            "title": "10. Kesilapan Lazim",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        },
+                "level":{
+                    "badge":"1"
+                },
 
-        {
-            "title": "11. Ringkasan",
-            "content": "<p>Kandungan akan ditambah.</p>"
-        }
+                "component":"Constructive Alignment",
 
-    ]
+                "function":"Prinsip reka bentuk kursus."
+
+            },
+
+            {
+
+                "level":{
+                    "badge":"2"
+                },
+
+                "component":"Table 4",
+
+                "function":"Dokumen reka bentuk kursus."
+
+            }
+
+        ]
+
+    },
+
+    "note":{
+
+        "type":"info",
+
+        "content":"Ini hanyalah data ujian."
+
+    }
+
 }
