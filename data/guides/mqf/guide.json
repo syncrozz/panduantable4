@@ -16,13 +16,15 @@
   "content": {
     "asas": "Malaysian Qualifications Framework (MQF) ialah kerangka kebangsaan yang menjadi rujukan dalam pembangunan program akademik di Malaysia. MQF memastikan program yang ditawarkan memenuhi standard kualiti yang ditetapkan oleh MQA.",
 
-    "purpose": "MQF menyediakan standard bagi tahap kelayakan, hasil pembelajaran, beban pembelajaran dan pemindahan kredit supaya semua program mempunyai kualiti yang konsisten.",
+    "analogi": "MQF menyediakan standard bagi tahap kelayakan, hasil pembelajaran, beban pembelajaran dan pemindahan kredit supaya semua program mempunyai kualiti yang konsisten.",
 
-    "relationship": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran.",
+    "situasi": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran.",
+    
+    "contoh": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran.",
 
-    "application": "Pensyarah perlu memastikan semua komponen dalam Table 4 dibangunkan selaras dengan prinsip Outcome-Based Education (OBE) dan kehendak MQF.",
+    "tips": "Pensyarah perlu memastikan semua komponen dalam Table 4 dibangunkan selaras dengan prinsip Outcome-Based Education (OBE) dan kehendak MQF.",
 
-    "commonMistakes": "Kesilapan yang sering berlaku ialah menganggap MQF hanya berkaitan jumlah kredit sedangkan ia turut merangkumi hasil pembelajaran, tahap kompetensi dan standard program."
+    "kesalahanBiasa": "Kesilapan yang sering berlaku ialah menganggap MQF hanya berkaitan jumlah kredit sedangkan ia turut merangkumi hasil pembelajaran, tahap kompetensi dan standard program."
   },
 
   "related": [

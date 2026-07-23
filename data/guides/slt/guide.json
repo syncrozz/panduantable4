@@ -17,15 +17,15 @@
 
         "asas": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan bukan bersemuka (NF2F).",
 
-        "purpose": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan.",
+        "analogi": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan.",
 
-        "calculation": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F.",
+        "situasi": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F.",
 
         "distribution": "Pengagihan SLT hendaklah mengambil kira kuliah, tutorial, amali, pembelajaran kendiri, tugasan, projek, pembentangan, ulang kaji dan peperiksaan supaya jumlah keseluruhan memenuhi jam SLT yang ditetapkan.",
 
         "application": "Dalam Table 4, setiap topik perlu mempunyai agihan SLT yang sesuai berdasarkan tahap kesukaran pembelajaran dan bentuk pentaksiran. Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi.",
 
-        "commonMistakes": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
+        "kesalahanBiasa": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
 
     },
 
