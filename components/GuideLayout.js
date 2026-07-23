@@ -32,30 +32,32 @@ const sections = panelItems
             <div class="guide-content">
 
                 ${
-                    section.image
-                        ? `
-                        <figure class="guide-figure">
+    section.image
+        ? `
+        <div class="guide-hero">
 
-                            <img
-                                class="guide-figure-image"
-                                src="assets/images/${section.image.src}"
-                                alt="${section.image.alt ?? ""}"
-                                loading="lazy">
+            <img
+                class="guide-hero-image"
+                src="assets/images/${section.image.src}"
+                alt="${section.image.alt ?? ""}"
+                loading="lazy">
 
-                            ${
-                                section.image.caption
-                                    ? `
-                                    <figcaption class="guide-figure-caption">
-                                        ${section.image.caption}
-                                    </figcaption>
-                                    `
-                                    : ""
-                            }
+            ${
+                section.image.explanation
+                    ? `
+                    <div class="guide-hero-description">
 
-                        </figure>
-                        `
-                        : ""
-                }
+                        ${MarkdownRenderer.render(section.image.explanation)}
+
+                    </div>
+                    `
+                    : ""
+            }
+
+        </div>
+        `
+        : ""
+}
 
                 ${
                     section.note
@@ -105,109 +107,75 @@ const navigation = panelItems
    GUIDE LAYOUT
 ========================================================= */
 
-    return `
-        <article class="guide">
+return `
+    <article class="guide">
+
+        <!-- =========================================================
+             GUIDE HEADER
+        ========================================================= -->
+
+        <header class="guide-header">
 
             <!-- =========================================================
-                 GUIDE HEADER
+                 GUIDE TABS
             ========================================================= -->
 
-            <header class="guide-header">
+            <nav class="guide-tabs" aria-label="Panduan">
 
-                <!-- =========================================================
-                     GUIDE TABS
-                ========================================================= -->
+                ${navigation}
 
-                <nav class="guide-tabs" aria-label="Panduan">
+            </nav>
 
-                    ${navigation}
+        </header>
 
-                </nav>
+        <!-- =========================================================
+             GUIDE MAIN
+        ========================================================= -->
 
-            </header>
+        <main class="guide-main">
 
             <!-- =========================================================
-                 GUIDE MAIN
+                 GUIDE PANELS
             ========================================================= -->
 
-            <main class="guide-main">
+            ${sections}
 
-                ${
-                    guide.heroImage ? `
-                    <!-- =========================================================
-                         GUIDE HERO
-                    ========================================================= -->
+        </main>
 
-                    <div class="guide-hero">
+        <!-- =========================================================
+             GUIDE PAGINATION
+        ========================================================= -->
 
-    <figure class="guide-hero-figure">
+        <footer class="guide-pagination">
 
-        <div class="guide-hero">
+            ${previous ? `
+                <a
+                    class="guide-prev"
+                    href="?guide=${previous.slug}"
+                    aria-label="${previous.title}">
 
-    <img
-        class="guide-hero-image"
-        src="assets/images/${guide.heroImage.src}"
-        alt="${guide.heroImage.alt}"
-        loading="lazy">
+                    <span class="arrow">←</span>
+                    <span class="title">${previous.title}</span>
 
-    ${
-        guide.heroImage.explanation
-            ? `
-            <div class="guide-hero-description">
+                </a>
+            ` : `<span></span>`}
 
-                ${MarkdownRenderer.render(guide.heroImage.explanation)}
+            ${next ? `
+                <a
+                    class="guide-next"
+                    href="?guide=${next.slug}"
+                    aria-label="${next.title}">
 
-            </div>
-            `
-            : ""
-    }
+                    <span class="title">${next.title}</span>
+                    <span class="arrow">→</span>
 
-</div>
-                    ` : ""
-                }
+                </a>
+            ` : ``}
 
-                <!-- =========================================================
-                     GUIDE PANELS
-                ========================================================= -->
+        </footer>
 
-                ${sections}
-
-            </main>
-
-            <!-- =========================================================
-                 GUIDE PAGINATION
-            ========================================================= -->
-
-            <footer class="guide-pagination">
-
-                ${previous ? `
-                    <a
-                        class="guide-prev"
-                        href="?guide=${previous.slug}"
-                        aria-label="${previous.title}">
-
-                        <span class="arrow">←</span>
-                        <span class="title">${previous.title}</span>
-
-                    </a>
-                ` : `<span></span>`}
-
-                ${next ? `
-                    <a
-                        class="guide-next"
-                        href="?guide=${next.slug}"
-                        aria-label="${next.title}">
-
-                        <span class="title">${next.title}</span>
-                        <span class="arrow">→</span>
-
-                    </a>
-                ` : ``}
-
-            </footer>
-
-        </article>
-    `;
+    </article>
+`;
 
 }
 

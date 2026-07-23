@@ -25,11 +25,17 @@
     "sections": [
 
         {
-            "id": "pengenalan",
-            "title": "1. Pengenalan",
+    "id": "pengenalan",
+    "title": "1. Pengenalan",
 
-            "content": "Table 4 merupakan dokumen induk dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE). Ia menjadi rujukan utama bagi merancang hasil pembelajaran, kandungan kursus, strategi pengajaran, pentaksiran dan Student Learning Time (SLT)."
-        },
+    "image": {
+        "src": "guides/table4/T4001.webp",
+        "alt": "Table 4 sebagai Perlembagaan Kursus",
+        "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
+    },
+
+    "content": "Table 4 merupakan dokumen induk dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE). Ia menjadi rujukan utama bagi merancang hasil pembelajaran, kandungan kursus, strategi pengajaran, pentaksiran dan Student Learning Time (SLT)."
+},
 
         {
             "id": "konsep",
