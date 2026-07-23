@@ -61,16 +61,19 @@ const navigation = Object.keys(guide.content)
                      GUIDE TABS
                 ========================================================= -->
 
-                <div class="guide-tabs">
+                <nav class="guide-tabs" aria-label="Panduan">
 
                     ${navigation}
 
-                </div>
+                </nav>
 
-                <h1>${guide.title}</h1>
+            </header>
 
-                <!-- Summary disembunyikan.
-                     Digunakan untuk metadata / search sahaja. -->
+            <!-- =========================================================
+                 GUIDE MAIN
+            ========================================================= -->
+
+            <main class="guide-main">
 
                 ${
                     guide.heroImage ? `
@@ -84,20 +87,19 @@ const navigation = Object.keys(guide.content)
                             class="guide-hero-image"
                             src="assets/images/${guide.heroImage.src}"
                             alt="${guide.heroImage.alt}"
-                            loading="lazy"
-                        >
+                            loading="lazy">
 
                     </div>
                     ` : ""
                 }
 
-            </header>
+                <!-- =========================================================
+                     GUIDE PANELS
+                ========================================================= -->
 
-            <!-- =========================================================
-                 GUIDE PANELS
-            ========================================================= -->
+                ${sections}
 
-            ${sections}
+            </main>
 
             <!-- =========================================================
                  GUIDE PAGINATION
@@ -106,9 +108,10 @@ const navigation = Object.keys(guide.content)
             <footer class="guide-pagination">
 
                 ${previous ? `
-                    <a class="guide-prev"
-                       href="?guide=${previous.slug}"
-                       aria-label="${previous.title}">
+                    <a
+                        class="guide-prev"
+                        href="?guide=${previous.slug}"
+                        aria-label="${previous.title}">
 
                         <span class="arrow">←</span>
                         <span class="title">${previous.title}</span>
@@ -117,9 +120,10 @@ const navigation = Object.keys(guide.content)
                 ` : `<span></span>`}
 
                 ${next ? `
-                    <a class="guide-next"
-                       href="?guide=${next.slug}"
-                       aria-label="${next.title}">
+                    <a
+                        class="guide-next"
+                        href="?guide=${next.slug}"
+                        aria-label="${next.title}">
 
                         <span class="title">${next.title}</span>
                         <span class="arrow">→</span>
