@@ -10,20 +10,72 @@ export default function GuideLayout({
    GUIDE PANELS
 ========================================================= */
 
-const sections = Object.entries(guide.content)
-    .map(([key, value], index) => `
+const panelItems = guide.sections
+    ? guide.sections.map(section => ({
+        id: section.id,
+        title: section.title,
+        content: section.content
+    }))
+    : Object.entries(guide.content).map(([key, value]) => ({
+        id: key,
+        title: formatTitle(key),
+        content: value
+    }));
+
+const sections = panelItems
+    .map((section, index) => `
+
         <section
-            id="${key}"
+            id="${section.id}"
             class="guide-panel ${index === 0 ? "active" : ""}"
-            data-tab="${key}">
+            data-tab="${section.id}">
 
             <div class="guide-content">
 
-                ${MarkdownRenderer.render(value)}
+                ${
+                    section.image
+                        ? `
+                        <figure class="guide-figure">
+
+                            <img
+                                class="guide-figure-image"
+                                src="assets/images/${section.image.src}"
+                                alt="${section.image.alt ?? ""}"
+                                loading="lazy">
+
+                            ${
+                                section.image.caption
+                                    ? `
+                                    <figcaption class="guide-figure-caption">
+                                        ${section.image.caption}
+                                    </figcaption>
+                                    `
+                                    : ""
+                            }
+
+                        </figure>
+                        `
+                        : ""
+                }
+
+                ${
+                    section.note
+                        ? `
+                        <div class="guide-note guide-note-${section.note.type ?? "info"}">
+
+                            ${MarkdownRenderer.render(section.note.content)}
+
+                        </div>
+                        `
+                        : ""
+                }
+
+                ${MarkdownRenderer.render(section.content)}
 
             </div>
 
         </section>
+
     `)
     .join("");
 
@@ -31,14 +83,14 @@ const sections = Object.entries(guide.content)
    GUIDE NAVIGATION
 ========================================================= */
 
-const navigation = Object.keys(guide.content)
-    .map((key, index) => `
+const navigation = panelItems
+    .map((section, index) => `
         <button
             class="guide-tab ${index === 0 ? "active" : ""}"
-            data-tab="${key}"
+            data-tab="${section.id}"
             type="button">
 
-            ${formatTitle(key)}
+            ${section.title}
 
         </button>
     `)
