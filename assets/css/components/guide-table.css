@@ -178,4 +178,68 @@
 
     }
 
+    /* =====================================================
+       GUIDE PAGINATION
+    ===================================================== */
+
+    .guide-pagination{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:16px;
+
+        margin-top:40px;
+
+    }
+
+    .guide-pagination-card{
+
+        justify-content:center;
+
+        align-items:center;
+
+        min-height:64px;
+
+        padding:0;
+
+        border-radius:16px;
+
+    }
+
+    .guide-pagination-label{
+
+        font-size:0;
+
+        letter-spacing:0;
+
+    }
+
+    .guide-prev .guide-pagination-label::before{
+
+        content:"◀";
+
+        font-size:1.4rem;
+
+        color:var(--primary);
+
+    }
+
+    .guide-next .guide-pagination-label::before{
+
+        content:"▶";
+
+        font-size:1.4rem;
+
+        color:var(--primary);
+
+    }
+
+    /* Mobile tiada hover */
+
+    .guide-pagination-tooltip{
+
+        display:none;
+
+    }
+
 }
