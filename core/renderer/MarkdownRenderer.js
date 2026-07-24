@@ -60,9 +60,46 @@ export default class MarkdownRenderer {
         });
 
         // -----------------------------
+        // Knowledge Links
+        // -----------------------------
+        html = this.renderKnowledgeLinks(html);
+
+        // -----------------------------
         // Line Break
         // -----------------------------
         html = html.replace(/\n/g, "<br>");
+
+        return html;
+
+    }
+
+    /**
+     * =========================================================
+     * Concept Engine v1
+     * Automatically converts keywords into concept links.
+     * =========================================================
+     */
+    static renderKnowledgeLinks(html) {
+
+        const concepts = {
+            "F2F": "f2f",
+            "NF2F": "nf2f",
+            "SLT": "slt",
+            "CLO": "clo",
+            "PLO": "plo",
+            "OBE": "obe"
+        };
+
+        Object.entries(concepts).forEach(([keyword, concept]) => {
+
+            const regex = new RegExp(`\\b${keyword}\\b`, "g");
+
+            html = html.replace(
+                regex,
+                `<a href="#/concept/${concept}" class="concept-link" data-concept="${concept}">${keyword}</a>`
+            );
+
+        });
 
         return html;
 

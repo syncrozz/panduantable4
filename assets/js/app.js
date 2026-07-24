@@ -6,6 +6,7 @@ import GuideRegistry from "../../core/services/GuideRegistry.js";
 import SearchService from "../../core/SearchService.js";
 import Renderer from "../../core/renderer/Renderer.js";
 import GuideTabs from "./modules/GuideTabs.js";
+import ConceptLinks from "./modules/ConceptLinks.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
 
@@ -32,6 +33,7 @@ const guide = await GuideService.getGuide(slug);
 Renderer.renderGuide(guide);
 
 GuideTabs.init();
+ConceptLinks.init();
 
     } catch (error) {
 
