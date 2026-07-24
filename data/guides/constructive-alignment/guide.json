@@ -19,8 +19,9 @@
 
         {
             "id": "hubungan",
-            "title": "Hubungan Constructive Alignment dengan Table 4",
-            "content": "Hubungan antara Constructive Alignment dan Table 4 adalah seperti berikut.",
+            "title": "Hubungan dengan Table 4",
+
+            "content": "Constructive Alignment merupakan prinsip yang menjadi asas kepada pembinaan Table 4. Jadual berikut menunjukkan bagaimana prinsip ini diterjemahkan kepada dokumen reka bentuk kursus dalam Outcome-Based Education (OBE).",
 
             "table": {
                 "columns": [
@@ -60,7 +61,7 @@
 
             "note": {
                 "type": "info",
-                "content": "Hubungan ini menunjukkan bahawa Constructive Alignment merupakan prinsip yang memandu pembinaan Table 4 sebagai dokumen reka bentuk kursus."
+                "content": "Constructive Alignment **bukanlah satu dokumen**, tetapi prinsip yang memandu pembinaan Table 4 bagi memastikan hasil pembelajaran, aktiviti pengajaran dan pembelajaran (PdP), serta pentaksiran sentiasa saling menyokong."
             }
         }
 

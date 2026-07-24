@@ -18,37 +18,42 @@
 
         {
             "id": "asas",
-            "title": "1. Asas",
-            "content": "Programme Learning Outcomes (PLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu program pengajian. Semua Course Learning Outcomes (CLO) perlu menyumbang kepada pencapaian PLO."
+            "title": "Asas",
+            "content": "Programme Learning Outcomes (PLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu program pengajian. Semua Course Learning Outcomes (CLO) perlu menyumbang kepada pencapaian PLO.",
+        
+            "image": {
+            "src": "guides/table4/T4003.webp",
+            "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
+    }
         },
 
         {
             "id": "analogi",
-            "title": "2. Analogi",
+            "title": "Analogi",
             "content": "PLO berfungsi sebagai sasaran pembelajaran di peringkat program. Ia memastikan setiap kursus memberi sumbangan kepada pembangunan pengetahuan, kemahiran dan kompetensi graduan."
         },
 
         {
             "id": "situasi",
-            "title": "3. Situasi",
+            "title": "Situasi",
             "content": "Dalam Table 4, setiap CLO perlu dipetakan kepada satu atau lebih PLO yang berkaitan. Pemetaan ini menunjukkan bagaimana sesuatu kursus menyokong pencapaian hasil pembelajaran program."
         },
 
         {
             "id": "tips",
-            "title": "4. Tips",
+            "title": "Tips",
             "content": "Hubungan antara CLO dan PLO perlu konsisten dengan kandungan kursus, strategi pengajaran, kaedah pentaksiran dan Student Learning Time (SLT)."
         },
 
         {
             "id": "contoh",
-            "title": "5. Contoh",
+            "title": "Contoh",
             "content": "Sebagai contoh, CLO yang menilai kemahiran komunikasi boleh dipetakan kepada PLO berkaitan kemahiran komunikasi, manakala CLO yang menilai penyelesaian masalah boleh dipetakan kepada PLO berkaitan pemikiran kritis."
         },
 
         {
             "id": "kesalahanBiasa",
-            "title": "6. Kesalahan Biasa",
+            "title": "Kesalahan Biasa",
             "content": "Kesilapan yang sering berlaku ialah pemetaan CLO kepada PLO dibuat tanpa justifikasi, terlalu banyak PLO dipilih bagi satu CLO atau pemetaan tidak disokong oleh aktiviti pembelajaran dan pentaksiran."
         }
 

@@ -1,17 +1,17 @@
 {
     "id": "table4",
-    "title": "Panduan Table 4",
+    "title": "Table 4",
     "slug": "table4",
     "category": "foundation",
 
     "summary": "Panduan lengkap memahami konsep, struktur dan pembinaan Table 4 berasaskan Outcome-Based Education (OBE).",
 
     "heroImage": {
-    "src": "guides/table4/T4001.webp",
-    "alt": "Table 4 sebagai Perlembagaan Kursus",
+        "src": "guides/table4/T4001.webp",
+        "alt": "Table 4 sebagai Perlembagaan Kursus",
 
-    "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
-},
+        "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
+    },
 
     "keywords": [
         "Table 4",
@@ -26,48 +26,55 @@
 
         {
     "id": "pengenalan",
-    "title": "1. Pengenalan",
+    "title": "Pengenalan",
+
+    "content": "Table 4 boleh dianggap sebagai **perlembagaan** dalam negara kita. Sebelum membuat sebarang perubahan pada Detailed Syllabus, Scheme of Work (SOW), aktiviti PdP atau pentaksiran, rujuk dahulu Table 4 untuk memastikan perubahan tersebut masih selaras dengan perancangan asal kursus.",
 
     "image": {
-        "src": "guides/table4/T4001.webp",
-        "alt": "Table 4 sebagai Perlembagaan Kursus",
-        "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
-    },
-
-    "content": "Table 4 merupakan dokumen induk dalam pembangunan kurikulum berasaskan Outcome-Based Education (OBE). Ia menjadi rujukan utama bagi merancang hasil pembelajaran, kandungan kursus, strategi pengajaran, pentaksiran dan Student Learning Time (SLT)."
+        "src": "guides/table4/T4008.webp",
+        "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
+    }
 },
 
         {
-            "id": "konsep",
-            "title": "2. Konsep Asas",
+    "id": "konsep",
+    "title": "Konsep Asas",
 
-            "content": "Table 4 menghubungkan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, kaedah pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dalam satu dokumen yang saling berkaitan."
-        },
+    "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
+
+    "image": {
+        "src": "guides/table4/T4009.webp",
+        "alt": "konsep asas Table 4"
+        
+    },
+
+    "html": "<p>Secara ringkas, terdapat <strong>empat konsep utama</strong>:</p><table class=\"table-standard\">...</table>"
+},
 
         {
             "id": "hubungan",
-            "title": "3. Hubungan Komponen",
+            "title": "Hubungan Komponen",
 
             "content": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO)."
         },
 
         {
             "id": "contoh",
-            "title": "4. Contoh",
+            "title": "Contoh",
 
             "content": "Sebagai contoh, CLO1 boleh dinilai melalui Kuiz, CLO2 melalui Pembentangan, manakala CLO3 melalui Projek Akhir. Setiap pentaksiran dipilih berdasarkan hasil pembelajaran yang ingin dicapai."
         },
 
         {
             "id": "panduan",
-            "title": "5. Panduan Membina",
+            "title": "Panduan Membina",
 
             "content": "Langkah pertama membina Table 4 ialah mengenal pasti Course Learning Outcomes (CLO). Selepas itu barulah kandungan kursus, strategi PdP, pentaksiran dan pengagihan Student Learning Time (SLT) disusun secara selaras."
         },
 
         {
             "id": "kesilapan",
-            "title": "6. Kesilapan Lazim",
+            "title": "Kesilapan Lazim",
 
             "note": {
                 "type": "warning",
@@ -92,7 +99,7 @@
     ],
 
     "order": 1,
-    "version": "2.0.0",
-    "lastUpdated": "2026-07-23",
+    "version": "2.1.0",
+    "lastUpdated": "2026-07-24",
     "status": "published"
 }
