@@ -1,46 +1,73 @@
 {
-  "id": "mqf",
-  "title": "Malaysian Qualifications Framework (MQF)",
-  "slug": "mqf",
-  "category": "building-block",
-  "summary": "Panduan memahami Malaysian Qualifications Framework (MQF) dan peranannya dalam pembangunan kurikulum serta pembinaan Table 4.",
+    "id": "mqf",
+    "title": "Malaysian Qualifications Framework (MQF)",
+    "slug": "mqf",
+    "category": "building-block",
 
-  "keywords": [
-    "MQF",
-    "Malaysian Qualifications Framework",
-    "MQA",
-    "OBE",
-    "Table 4"
-  ],
+    "summary": "Panduan memahami Malaysian Qualifications Framework (MQF) dan peranannya dalam pembangunan kurikulum serta pembinaan Table 4.",
 
-  "content": {
-    "asas": "Malaysian Qualifications Framework (MQF) ialah kerangka kebangsaan yang menjadi rujukan dalam pembangunan program akademik di Malaysia. MQF memastikan program yang ditawarkan memenuhi standard kualiti yang ditetapkan oleh MQA.",
+    "keywords": [
+        "MQF",
+        "Malaysian Qualifications Framework",
+        "MQA",
+        "OBE",
+        "Table 4"
+    ],
 
-    "analogi": "MQF menyediakan standard bagi tahap kelayakan, hasil pembelajaran, beban pembelajaran dan pemindahan kredit supaya semua program mempunyai kualiti yang konsisten.",
+    "sections": [
 
-    "situasi": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran.",
-    
-    "contoh": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran.",
+        {
+            "id": "asas",
+            "title": "1. Asas",
+            "content": "Malaysian Qualifications Framework (MQF) ialah kerangka kebangsaan yang menjadi rujukan dalam pembangunan program akademik di Malaysia. MQF memastikan program yang ditawarkan memenuhi standard kualiti yang ditetapkan oleh MQA."
+        },
 
-    "tips": "Pensyarah perlu memastikan semua komponen dalam Table 4 dibangunkan selaras dengan prinsip Outcome-Based Education (OBE) dan kehendak MQF.",
+        {
+            "id": "analogi",
+            "title": "2. Analogi",
+            "content": "MQF menyediakan standard bagi tahap kelayakan, hasil pembelajaran, beban pembelajaran dan pemindahan kredit supaya semua program mempunyai kualiti yang konsisten."
+        },
 
-    "kesalahanBiasa": "Kesilapan yang sering berlaku ialah menganggap MQF hanya berkaitan jumlah kredit sedangkan ia turut merangkumi hasil pembelajaran, tahap kompetensi dan standard program."
-  },
+        {
+            "id": "situasi",
+            "title": "3. Situasi",
+            "content": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran."
+        },
 
-  "related": [
-    "clo",
-    "plo",
-    "slt",
-    "table4"
-  ],
+        {
+            "id": "contoh",
+            "title": "4. Contoh",
+            "content": "Sebagai contoh, semasa membangunkan sesuatu kursus, pensyarah merujuk MQF untuk memastikan CLO, PLO, SLT dan kaedah pentaksiran memenuhi tahap pembelajaran serta standard kualiti yang ditetapkan oleh MQA."
+        },
 
-  "references": [
-    "Malaysian Qualifications Agency (MQA)",
-    "Malaysian Qualifications Framework (MQF)"
-  ],
+        {
+            "id": "tips",
+            "title": "5. Tips",
+            "content": "Pensyarah perlu memastikan semua komponen dalam Table 4 dibangunkan selaras dengan prinsip Outcome-Based Education (OBE) dan kehendak MQF."
+        },
 
-  "order": 16,
-  "version": "1.0.0",
-  "lastUpdated": "2026-07-22",
-  "status": "published"
+        {
+            "id": "kesalahanBiasa",
+            "title": "6. Kesalahan Biasa",
+            "content": "Kesilapan yang sering berlaku ialah menganggap MQF hanya berkaitan jumlah kredit sedangkan ia turut merangkumi hasil pembelajaran, tahap kompetensi dan standard program."
+        }
+
+    ],
+
+    "related": [
+        "clo",
+        "plo",
+        "slt",
+        "table4"
+    ],
+
+    "references": [
+        "Malaysian Qualifications Agency (MQA)",
+        "Malaysian Qualifications Framework (MQF)"
+    ],
+
+    "order": 16,
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-24",
+    "status": "published"
 }

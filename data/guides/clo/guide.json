@@ -3,6 +3,7 @@
     "title": "Course Learning Outcomes (CLO)",
     "slug": "clo",
     "category": "building-block",
+
     "summary": "Panduan memahami dan membina Course Learning Outcomes (CLO) sebagai asas kepada pembinaan Table 4.",
 
     "keywords": [
@@ -13,21 +14,45 @@
         "MQA"
     ],
 
-    "content": {
+    "sections": [
 
-        "asas": "Course Learning Outcomes (CLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu kursus. CLO menjadi asas kepada keseluruhan pembinaan Table 4.",
+        {
+            "id": "asas",
+            "title": "1. Asas",
+            "content": "Course Learning Outcomes (CLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu kursus. CLO menjadi asas kepada keseluruhan pembinaan Table 4."
+        },
 
-        "analogi": "CLO menerangkan pengetahuan, kemahiran dan sikap yang perlu dikuasai oleh pelajar. Setiap CLO hendaklah boleh diukur, jelas dan sejajar dengan Programme Learning Outcomes (PLO).",
+        {
+            "id": "analogi",
+            "title": "2. Analogi",
+            "content": "CLO menerangkan pengetahuan, kemahiran dan sikap yang perlu dikuasai oleh pelajar. Setiap CLO hendaklah boleh diukur, jelas dan sejajar dengan Programme Learning Outcomes (PLO)."
+        },
 
-        "situasi": "CLO hendaklah ditulis menggunakan kata kerja yang boleh diukur berdasarkan Taksonomi Bloom, mengandungi kandungan pembelajaran dan tahap pencapaian yang diharapkan.",
+        {
+            "id": "situasi",
+            "title": "3. Situasi",
+            "content": "CLO hendaklah ditulis menggunakan kata kerja yang boleh diukur berdasarkan Taksonomi Bloom, mengandungi kandungan pembelajaran dan tahap pencapaian yang diharapkan."
+        },
 
-        "tips": "Setiap CLO perlu dipetakan kepada sekurang-kurangnya satu Programme Learning Outcome (PLO) dan disokong oleh kandungan kursus, aktiviti pembelajaran serta kaedah pentaksiran.",
+        {
+            "id": "tips",
+            "title": "4. Tips",
+            "content": "Setiap CLO perlu dipetakan kepada sekurang-kurangnya satu Programme Learning Outcome (PLO) dan disokong oleh kandungan kursus, aktiviti pembelajaran serta kaedah pentaksiran."
+        },
 
-        "contoh": "Contoh: 'Menjelaskan prinsip asas Outcome-Based Education (OBE).' Kata kerja 'Menjelaskan' boleh diukur dan sesuai digunakan untuk pentaksiran.",
+        {
+            "id": "contoh",
+            "title": "5. Contoh",
+            "content": "Contoh: 'Menjelaskan prinsip asas Outcome-Based Education (OBE).' Kata kerja 'Menjelaskan' boleh diukur dan sesuai digunakan untuk pentaksiran."
+        },
 
-        "kesalahanBiasa": "Kesilapan yang sering berlaku ialah menggunakan kata kerja yang tidak boleh diukur, CLO terlalu umum, terlalu banyak dalam satu ayat atau tidak sejajar dengan pentaksiran."
+        {
+            "id": "kesalahanBiasa",
+            "title": "6. Kesalahan Biasa",
+            "content": "Kesilapan yang sering berlaku ialah menggunakan kata kerja yang tidak boleh diukur, CLO terlalu umum, terlalu banyak dalam satu ayat atau tidak sejajar dengan pentaksiran."
+        }
 
-    },
+    ],
 
     "related": [
         "plo",
@@ -41,7 +66,7 @@
     ],
 
     "order": 10,
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-22",
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-24",
     "status": "published"
 }

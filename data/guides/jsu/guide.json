@@ -3,6 +3,7 @@
   "title": "Jadual Spesifikasi Ujian (JSU)",
   "slug": "jsu",
   "category": "building-block",
+
   "summary": "Panduan menyediakan Jadual Spesifikasi Ujian (JSU) bagi memastikan pentaksiran sejajar dengan Course Learning Outcomes (CLO) dan kandungan kursus.",
 
   "keywords": [
@@ -14,19 +15,45 @@
     "Table 4"
   ],
 
-  "content": {
-    "asas": "Jadual Spesifikasi Ujian (JSU) ialah dokumen yang merancang pembinaan item pentaksiran berdasarkan hasil pembelajaran, kandungan kursus dan aras kognitif.",
+  "sections": [
 
-    "analogi": "JSU memastikan setiap soalan yang dibina mempunyai liputan kandungan yang sesuai serta mengukur Course Learning Outcomes (CLO) secara adil dan sistematik.",
+    {
+      "id": "asas",
+      "title": "1. Asas",
+      "content": "Jadual Spesifikasi Ujian (JSU) ialah dokumen yang merancang pembinaan item pentaksiran berdasarkan hasil pembelajaran, kandungan kursus dan aras kognitif."
+    },
 
-    "situasi": "Komponen utama JSU lazimnya merangkumi topik, CLO, aras Taksonomi Bloom, bilangan item, markah dan pemberat setiap bahagian.",
+    {
+      "id": "analogi",
+      "title": "2. Analogi",
+      "content": "JSU memastikan setiap soalan yang dibina mempunyai liputan kandungan yang sesuai serta mengukur Course Learning Outcomes (CLO) secara adil dan sistematik."
+    },
 
-    "contoh": "JSU dibina selepas perancangan pentaksiran dalam Table 4. Ia menjadi jambatan antara perancangan kursus dengan pembinaan instrumen peperiksaan atau ujian.",
+    {
+      "id": "situasi",
+      "title": "3. Situasi",
+      "content": "Komponen utama JSU lazimnya merangkumi topik, CLO, aras Taksonomi Bloom, bilangan item, markah dan pemberat setiap bahagian."
+    },
 
-    "tips": "Dengan JSU, pensyarah dapat memastikan soalan peperiksaan mempunyai keseimbangan dari segi kandungan, tahap kesukaran dan hasil pembelajaran yang hendak diukur.",
+    {
+      "id": "contoh",
+      "title": "4. Contoh",
+      "content": "JSU dibina selepas perancangan pentaksiran dalam Table 4. Ia menjadi jambatan antara perancangan kursus dengan pembinaan instrumen peperiksaan atau ujian."
+    },
 
-    "kesalahanBiasa": "Kesilapan yang sering berlaku ialah membina JSU selepas menyediakan soalan, tidak memetakan item kepada CLO atau memberikan pemberat yang tidak seimbang."
-  },
+    {
+      "id": "tips",
+      "title": "5. Tips",
+      "content": "Dengan JSU, pensyarah dapat memastikan soalan peperiksaan mempunyai keseimbangan dari segi kandungan, tahap kesukaran dan hasil pembelajaran yang hendak diukur."
+    },
+
+    {
+      "id": "kesalahanBiasa",
+      "title": "6. Kesalahan Biasa",
+      "content": "Kesilapan yang sering berlaku ialah membina JSU selepas menyediakan soalan, tidak memetakan item kepada CLO atau memberikan pemberat yang tidak seimbang."
+    }
+
+  ],
 
   "related": [
     "assessment",
@@ -40,7 +67,7 @@
   ],
 
   "order": 17,
-  "version": "1.0.0",
-  "lastUpdated": "2026-07-22",
+  "version": "2.0.0",
+  "lastUpdated": "2026-07-24",
   "status": "published"
 }

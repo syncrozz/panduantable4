@@ -3,6 +3,7 @@
     "title": "Programme Learning Outcomes (PLO)",
     "slug": "plo",
     "category": "building-block",
+
     "summary": "Panduan memahami Programme Learning Outcomes (PLO) dan hubungannya dengan Course Learning Outcomes (CLO) dalam pembinaan Table 4.",
 
     "keywords": [
@@ -13,21 +14,45 @@
         "MQA"
     ],
 
-    "content": {
+    "sections": [
 
-        "asas": "Programme Learning Outcomes (PLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu program pengajian. Semua Course Learning Outcomes (CLO) perlu menyumbang kepada pencapaian PLO.",
+        {
+            "id": "asas",
+            "title": "1. Asas",
+            "content": "Programme Learning Outcomes (PLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu program pengajian. Semua Course Learning Outcomes (CLO) perlu menyumbang kepada pencapaian PLO."
+        },
 
-        "analogi": "PLO berfungsi sebagai sasaran pembelajaran di peringkat program. Ia memastikan setiap kursus memberi sumbangan kepada pembangunan pengetahuan, kemahiran dan kompetensi graduan.",
+        {
+            "id": "analogi",
+            "title": "2. Analogi",
+            "content": "PLO berfungsi sebagai sasaran pembelajaran di peringkat program. Ia memastikan setiap kursus memberi sumbangan kepada pembangunan pengetahuan, kemahiran dan kompetensi graduan."
+        },
 
-        "situasi": "Dalam Table 4, setiap CLO perlu dipetakan kepada satu atau lebih PLO yang berkaitan. Pemetaan ini menunjukkan bagaimana sesuatu kursus menyokong pencapaian hasil pembelajaran program.",
+        {
+            "id": "situasi",
+            "title": "3. Situasi",
+            "content": "Dalam Table 4, setiap CLO perlu dipetakan kepada satu atau lebih PLO yang berkaitan. Pemetaan ini menunjukkan bagaimana sesuatu kursus menyokong pencapaian hasil pembelajaran program."
+        },
 
-        "tips": "Hubungan antara CLO dan PLO perlu konsisten dengan kandungan kursus, strategi pengajaran, kaedah pentaksiran dan Student Learning Time (SLT).",
+        {
+            "id": "tips",
+            "title": "4. Tips",
+            "content": "Hubungan antara CLO dan PLO perlu konsisten dengan kandungan kursus, strategi pengajaran, kaedah pentaksiran dan Student Learning Time (SLT)."
+        },
 
-        "contoh": "Sebagai contoh, CLO yang menilai kemahiran komunikasi boleh dipetakan kepada PLO berkaitan kemahiran komunikasi, manakala CLO yang menilai penyelesaian masalah boleh dipetakan kepada PLO berkaitan pemikiran kritis.",
+        {
+            "id": "contoh",
+            "title": "5. Contoh",
+            "content": "Sebagai contoh, CLO yang menilai kemahiran komunikasi boleh dipetakan kepada PLO berkaitan kemahiran komunikasi, manakala CLO yang menilai penyelesaian masalah boleh dipetakan kepada PLO berkaitan pemikiran kritis."
+        },
 
-        "kesalahanBiasa": "Kesilapan yang sering berlaku ialah pemetaan CLO kepada PLO dibuat tanpa justifikasi, terlalu banyak PLO dipilih bagi satu CLO atau pemetaan tidak disokong oleh aktiviti pembelajaran dan pentaksiran."
+        {
+            "id": "kesalahanBiasa",
+            "title": "6. Kesalahan Biasa",
+            "content": "Kesilapan yang sering berlaku ialah pemetaan CLO kepada PLO dibuat tanpa justifikasi, terlalu banyak PLO dipilih bagi satu CLO atau pemetaan tidak disokong oleh aktiviti pembelajaran dan pentaksiran."
+        }
 
-    },
+    ],
 
     "related": [
         "clo",
@@ -41,7 +66,7 @@
     ],
 
     "order": 11,
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-22",
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-24",
     "status": "published"
 }

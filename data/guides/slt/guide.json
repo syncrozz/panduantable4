@@ -3,6 +3,7 @@
     "title": "Student Learning Time (SLT)",
     "slug": "slt",
     "category": "building-block",
+
     "summary": "Panduan memahami konsep Student Learning Time (SLT), kaedah pengiraan serta pengagihannya dalam pembinaan Table 4.",
 
     "keywords": [
@@ -13,21 +14,45 @@
         "MQA"
     ],
 
-    "content": {
+    "sections": [
 
-        "asas": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan bukan bersemuka (NF2F).",
+        {
+            "id": "asas",
+            "title": "1. Asas",
+            "content": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan bukan bersemuka (NF2F)."
+        },
 
-        "analogi": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan.",
+        {
+            "id": "analogi",
+            "title": "2. Analogi",
+            "content": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan."
+        },
 
-        "situasi": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F.",
+        {
+            "id": "situasi",
+            "title": "3. Situasi",
+            "content": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F."
+        },
 
-        "distribution": "Pengagihan SLT hendaklah mengambil kira kuliah, tutorial, amali, pembelajaran kendiri, tugasan, projek, pembentangan, ulang kaji dan peperiksaan supaya jumlah keseluruhan memenuhi jam SLT yang ditetapkan.",
+        {
+            "id": "distribution",
+            "title": "4. Pengagihan SLT",
+            "content": "Pengagihan SLT hendaklah mengambil kira kuliah, tutorial, amali, pembelajaran kendiri, tugasan, projek, pembentangan, ulang kaji dan peperiksaan supaya jumlah keseluruhan memenuhi jam SLT yang ditetapkan."
+        },
 
-        "application": "Dalam Table 4, setiap topik perlu mempunyai agihan SLT yang sesuai berdasarkan tahap kesukaran pembelajaran dan bentuk pentaksiran. Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi.",
+        {
+            "id": "application",
+            "title": "5. Aplikasi dalam Table 4",
+            "content": "Dalam Table 4, setiap topik perlu mempunyai agihan SLT yang sesuai berdasarkan tahap kesukaran pembelajaran dan bentuk pentaksiran. Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi."
+        },
 
-        "kesalahanBiasa": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
+        {
+            "id": "kesalahanBiasa",
+            "title": "6. Kesalahan Biasa",
+            "content": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
+        }
 
-    },
+    ],
 
     "related": [
         "f2f",
@@ -42,7 +67,7 @@
     ],
 
     "order": 13,
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-22",
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-24",
     "status": "published"
 }

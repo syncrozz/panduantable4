@@ -1,69 +1,86 @@
 {
-    "id": "hubungan",
+    "id": "constructive-alignment",
+    "title": "Constructive Alignment",
+    "slug": "constructive-alignment",
+    "category": "foundation",
 
-    "title": "Hubungan Constructive Alignment dengan Table 4",
+    "summary": "Panduan memahami Constructive Alignment sebagai prinsip asas dalam Outcome-Based Education (OBE) dan hubungannya dengan Table 4.",
 
-    "content": "Hubungan antara Constructive Alignment dan Table 4 adalah seperti berikut.",
+    "keywords": [
+        "Constructive Alignment",
+        "OBE",
+        "Table 4",
+        "CLO",
+        "PLO",
+        "MQA"
+    ],
 
-    "table": {
+    "sections": [
 
-        "columns":[
+        {
+            "id": "hubungan",
+            "title": "Hubungan Constructive Alignment dengan Table 4",
+            "content": "Hubungan antara Constructive Alignment dan Table 4 adalah seperti berikut.",
 
-            {
-                "key":"level",
-                "label":"Level",
-                "width":"90px"
+            "table": {
+                "columns": [
+                    {
+                        "key": "level",
+                        "label": "Level",
+                        "width": "90px"
+                    },
+                    {
+                        "key": "component",
+                        "label": "Komponen",
+                        "width": "260px"
+                    },
+                    {
+                        "key": "function",
+                        "label": "Fungsi"
+                    }
+                ],
+
+                "rows": [
+                    {
+                        "level": {
+                            "badge": "1"
+                        },
+                        "component": "Constructive Alignment",
+                        "function": "Prinsip reka bentuk kursus."
+                    },
+                    {
+                        "level": {
+                            "badge": "2"
+                        },
+                        "component": "Table 4",
+                        "function": "Dokumen reka bentuk kursus."
+                    }
+                ]
             },
 
-            {
-                "key":"component",
-                "label":"Komponen",
-                "width":"260px"
-            },
-
-            {
-                "key":"function",
-                "label":"Fungsi"
+            "note": {
+                "type": "info",
+                "content": "Hubungan ini menunjukkan bahawa Constructive Alignment merupakan prinsip yang memandu pembinaan Table 4 sebagai dokumen reka bentuk kursus."
             }
+        }
 
-        ],
+    ],
 
-        "rows":[
+    "related": [
+        "table4",
+        "clo",
+        "plo",
+        "assessment"
+    ],
 
-            {
+    "references": [
+        "John Biggs & Catherine Tang",
+        "Malaysian Qualifications Agency (MQA)",
+        "Code of Practice for Programme Accreditation (COPPA)"
+    ],
 
-                "level":{
-                    "badge":"1"
-                },
-
-                "component":"Constructive Alignment",
-
-                "function":"Prinsip reka bentuk kursus."
-
-            },
-
-            {
-
-                "level":{
-                    "badge":"2"
-                },
-
-                "component":"Table 4",
-
-                "function":"Dokumen reka bentuk kursus."
-
-            }
-
-        ]
-
-    },
-
-    "note":{
-
-        "type":"info",
-
-        "content":"Ini hanyalah data ujian."
-
-    }
-
+    "order": 2,
+    "version": "2.0.0",
+    "lastUpdated": "2026-07-24",
+    "status": "published"
 }
