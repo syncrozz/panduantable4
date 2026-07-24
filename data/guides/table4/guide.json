@@ -36,17 +36,16 @@
     }
 },
 
-        {
+{
     "id": "konsep",
     "title": "Konsep Asas",
 
-    "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
-
     "image": {
         "src": "guides/table4/T4009.webp",
-        "alt": "konsep asas Table 4"
-        
+        "alt": "Konsep Asas Table 4"
     },
+
+    "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
 
     "html": "<p>Secara ringkas, terdapat <strong>empat konsep utama</strong>:</p><table class=\"table-standard\">...</table>"
 },

@@ -19,7 +19,7 @@
         {
             "id": "asas",
             "title": "Asas",
-            "content": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan pembelajaran bukan bersemuka (NF2F)."
+            "content": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). **Pembelajaran bukan hanya berlaku ketika pensyarah mengajar** di dalam kelas. <br><br> Pelajar juga belajar melalui ulang kaji, tugasan, pembacaan, projek dan persediaan peperiksaan. Oleh itu, SLT mengira keseluruhan masa pembelajaran, bukan hanya waktu kuliah."
         },
 
         {
@@ -28,11 +28,54 @@
             "content": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan."
         },
 
-        {
-            "id": "situasi",
-            "title": "Situasi",
-            "content": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F."
-        },
+       {
+    "id": "situasi",
+    "title": "Situasi",
+    "content": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F.",
+
+    "table": {
+        "columns": [
+            {
+                "key": "kredit",
+                "label": "Kredit"
+            },
+            {
+                "key": "f2f",
+                "label": "SLT Bersemuka (F2F)"
+            },
+            {
+                "key": "nf2f",
+                "label": "SLT Bukan Bersemuka (NF2F)"
+            },
+            {
+                "key": "jumlah",
+                "label": "Jumlah SLT"
+            }
+        ],
+
+        "rows": [
+            {
+                "kredit": "2 Kredit",
+                "f2f": "36 jam",
+                "nf2f": "44 jam",
+                "jumlah": "80 jam"
+            },
+            {
+                "kredit": "3 Kredit",
+                "f2f": "36 jam",
+                "nf2f": "84 jam",
+                "jumlah": "120 jam"
+            },
+            {
+                "kredit": "4 Kredit",
+                "f2f": "36 jam",
+                "nf2f": "124 jam",
+                "jumlah": "160 jam"
+            }
+        ]
+    }
+
+},
 
         {
             "id": "distribution",
@@ -41,14 +84,22 @@
         },
 
         {
-            "id": "application",
-            "title": "Cara Aplikasi",
-            "content": "Dalam Table 4, Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi."
+            "id": "lazim",
+            "title": "Lazimnya",
+            "image": {
+            "src": "guides/table4/T4011.webp",
+            "alt": "Konsep Asas Table 4"
+       },
+            "content": " jumlah jam NF2F adalah lebih besar daripada F2F kerana pembelajaran pelajar tidak hanya berlaku di dalam kelas, malah diteruskan melalui pembelajaran kendiri di luar kelas."
+       
         },
 
         {
             "id": "kesalahanBiasa",
             "title": "Kesalahan Biasa",
+            "image": {
+            "src": "guides/table4/T4012.webp"
+       },
             "content": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
         },
 
