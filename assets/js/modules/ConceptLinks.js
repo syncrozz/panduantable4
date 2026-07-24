@@ -1,3 +1,5 @@
+import ConceptService from "../../../core/services/ConceptService.js";
+
 console.log("✅ ConceptLinks Module Loaded");
 
 export default class ConceptLinks {
@@ -26,58 +28,55 @@ export default class ConceptLinks {
 
 }
 
-    static showPopup(concept) {
+    static async showPopup(concept) {
 
-        console.log("🚀 showPopup()", concept);
+    console.log("🚀 showPopup()", concept);
 
-        this.closePopup();
+    this.closePopup();
 
-        const popup = document.createElement("div");
+    const data = await ConceptService.get(concept);
 
-        popup.className = "concept-popup-overlay";
+    const popup = document.createElement("div");
 
-        popup.innerHTML = `
-            <div class="concept-popup">
+    popup.className = "concept-popup-overlay";
 
-                <div class="concept-popup-header">
+    popup.innerHTML = `
+        <div class="concept-popup">
 
-                    <h3>📘 ${concept.toUpperCase()}</h3>
+            <div class="concept-popup-header">
 
-                    <button class="concept-popup-close">&times;</button>
+                <h3>${data.icon} ${data.title}</h3>
 
-                </div>
-
-                <div class="concept-popup-body">
-
-                    <p><strong>Concept:</strong> ${concept}</p>
-
-                    <p>This is Concept Popup v1.</p>
-
-                    <p>Knowledge Hub akan dipaparkan di sini nanti.</p>
-
-                </div>
+                <button class="concept-popup-close">&times;</button>
 
             </div>
-        `;
 
-        document.body.appendChild(popup);
-        console.log(document.querySelector(".concept-popup-overlay"));
-        console.log("✅ Popup Added To DOM");
+            <div class="concept-popup-body">
 
-        popup.querySelector(".concept-popup-close")
-            .addEventListener("click", () => this.closePopup());
+                <p>${data.summary}</p>
 
-        popup.addEventListener("click", (e) => {
+            </div>
 
-            if (e.target === popup) {
+        </div>
+    `;
 
-                this.closePopup();
+    document.body.appendChild(popup);
 
-            }
+    popup
+        .querySelector(".concept-popup-close")
+        .addEventListener("click", () => this.closePopup());
 
-        });
+    popup.addEventListener("click", (e) => {
 
-    }
+        if (e.target === popup) {
+
+            this.closePopup();
+
+        }
+
+    });
+
+}
 
     static closePopup() {
 
