@@ -423,6 +423,169 @@
 }
 
 /* =========================================================
+   GUIDE PAGINATION
+========================================================= */
+
+.guide-pagination{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:20px;
+
+    margin-top:64px;
+
+}
+
+.guide-pagination-card{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:26px 28px;
+
+    background:#fff;
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    box-shadow:0 8px 24px rgba(15,23,42,.06);
+
+    transition:.25s;
+
+}
+
+.guide-pagination-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 18px 40px rgba(15,23,42,.12);
+
+}
+
+.guide-prev{
+
+    justify-content:flex-start;
+
+}
+
+.guide-next{
+
+    justify-content:flex-end;
+
+}
+
+.guide-pagination-label{
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+    color:var(--text-light);
+
+}
+
+.guide-pagination-tooltip{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:calc(100% + 18px);
+
+    transform:translateX(-50%) translateY(8px);
+
+    min-width:260px;
+
+    max-width:320px;
+
+    padding:18px 20px;
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    background:#fff;
+
+    color:var(--text);
+
+    text-align:center;
+
+    font-weight:600;
+
+    box-shadow:0 18px 40px rgba(15,23,42,.16);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    pointer-events:none;
+
+    transition:.22s;
+
+    z-index:20;
+
+}
+
+.guide-pagination-tooltip::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:100%;
+
+    transform:translateX(-50%);
+
+    border:10px solid transparent;
+
+    border-top-color:#fff;
+
+}
+
+.guide-pagination-card:hover .guide-pagination-tooltip{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateX(-50%) translateY(0);
+
+}
+
+@media (max-width:768px){
+
+    .guide-pagination{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .guide-next{
+
+        justify-content:flex-start;
+
+    }
+
+}
+/* =========================================================
    HERO EXPLANATION
 ========================================================= */
 

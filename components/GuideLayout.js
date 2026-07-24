@@ -156,27 +156,45 @@ return `
 
             ${previous ? `
                 <a
-                    class="guide-prev"
+                    class="guide-pagination-card guide-prev"
                     href="?guide=${previous.slug}"
                     aria-label="${previous.title}">
 
-                    <span class="arrow">←</span>
-                    <span class="title">${previous.title}</span>
+                    <span class="guide-pagination-label">
+
+                        ◀ Sebelumnya
+
+                    </span>
+
+                    <span class="guide-pagination-tooltip">
+
+                        ${previous.title}
+
+                    </span>
 
                 </a>
-            ` : `<span></span>`}
+            ` : `<div></div>`}
 
             ${next ? `
                 <a
-                    class="guide-next"
+                    class="guide-pagination-card guide-next"
                     href="?guide=${next.slug}"
                     aria-label="${next.title}">
 
-                    <span class="title">${next.title}</span>
-                    <span class="arrow">→</span>
+                    <span class="guide-pagination-label">
+
+                        Seterusnya ▶
+
+                    </span>
+
+                    <span class="guide-pagination-tooltip">
+
+                        ${next.title}
+
+                    </span>
 
                 </a>
-            ` : ``}
+            ` : `<div></div>`}
 
         </footer>
 
