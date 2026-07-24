@@ -18,38 +18,45 @@
 
         {
             "id": "asas",
-            "title": "1. Asas",
+            "title": "Asas",
             "content": "Course Learning Outcomes (CLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu kursus. CLO menjadi asas kepada keseluruhan pembinaan Table 4."
         },
 
         {
             "id": "analogi",
-            "title": "2. Analogi",
+            "title": "Analogi",
             "content": "CLO menerangkan pengetahuan, kemahiran dan sikap yang perlu dikuasai oleh pelajar. Setiap CLO hendaklah boleh diukur, jelas dan sejajar dengan Programme Learning Outcomes (PLO)."
         },
 
         {
             "id": "situasi",
-            "title": "3. Situasi",
+            "title": "Situasi",
             "content": "CLO hendaklah ditulis menggunakan kata kerja yang boleh diukur berdasarkan Taksonomi Bloom, mengandungi kandungan pembelajaran dan tahap pencapaian yang diharapkan."
         },
 
         {
             "id": "tips",
-            "title": "4. Tips",
+            "title": "Tips",
             "content": "Setiap CLO perlu dipetakan kepada sekurang-kurangnya satu Programme Learning Outcome (PLO) dan disokong oleh kandungan kursus, aktiviti pembelajaran serta kaedah pentaksiran."
         },
 
         {
             "id": "contoh",
-            "title": "5. Contoh",
+            "title": "Contoh",
             "content": "Contoh: 'Menjelaskan prinsip asas Outcome-Based Education (OBE).' Kata kerja 'Menjelaskan' boleh diukur dan sesuai digunakan untuk pentaksiran."
         },
 
         {
             "id": "kesalahanBiasa",
-            "title": "6. Kesalahan Biasa",
+            "title": "Kesalahan Biasa",
             "content": "Kesilapan yang sering berlaku ialah menggunakan kata kerja yang tidak boleh diukur, CLO terlalu umum, terlalu banyak dalam satu ayat atau tidak sejajar dengan pentaksiran."
+        }, 
+
+        {
+            "id": "Rujukan",
+            "title": "Rujukan Istilah",
+
+            "content": "Contoh Rujukan istilah dalam table4."
         }
 
     ],

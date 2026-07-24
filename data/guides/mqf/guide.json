@@ -18,38 +18,45 @@
 
         {
             "id": "asas",
-            "title": "1. Asas",
+            "title": "Asas",
             "content": "Malaysian Qualifications Framework (MQF) ialah kerangka kebangsaan yang menjadi rujukan dalam pembangunan program akademik di Malaysia. MQF memastikan program yang ditawarkan memenuhi standard kualiti yang ditetapkan oleh MQA."
         },
 
         {
             "id": "analogi",
-            "title": "2. Analogi",
+            "title": "Analogi",
             "content": "MQF menyediakan standard bagi tahap kelayakan, hasil pembelajaran, beban pembelajaran dan pemindahan kredit supaya semua program mempunyai kualiti yang konsisten."
         },
 
         {
             "id": "situasi",
-            "title": "3. Situasi",
+            "title": "Situasi",
             "content": "Dalam pembinaan Table 4, MQF menjadi asas kepada penentuan Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), Student Learning Time (SLT) dan strategi pentaksiran."
         },
 
         {
             "id": "contoh",
-            "title": "4. Contoh",
+            "title": "Contoh",
             "content": "Sebagai contoh, semasa membangunkan sesuatu kursus, pensyarah merujuk MQF untuk memastikan CLO, PLO, SLT dan kaedah pentaksiran memenuhi tahap pembelajaran serta standard kualiti yang ditetapkan oleh MQA."
         },
 
         {
             "id": "tips",
-            "title": "5. Tips",
+            "title": "Tips",
             "content": "Pensyarah perlu memastikan semua komponen dalam Table 4 dibangunkan selaras dengan prinsip Outcome-Based Education (OBE) dan kehendak MQF."
         },
 
         {
             "id": "kesalahanBiasa",
-            "title": "6. Kesalahan Biasa",
+            "title": "Kesalahan Biasa",
             "content": "Kesilapan yang sering berlaku ialah menganggap MQF hanya berkaitan jumlah kredit sedangkan ia turut merangkumi hasil pembelajaran, tahap kompetensi dan standard program."
+        }, 
+
+        {
+            "id": "Rujukan",
+            "title": "Rujukan Istilah",
+
+            "content": "Contoh Rujukan istilah dalam table4."
         }
 
     ],

@@ -18,38 +18,91 @@
 
         {
             "id": "asas",
-            "title": "1. Asas",
-            "content": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan bukan bersemuka (NF2F)."
+            "title": "Asas",
+            "content": "Student Learning Time (SLT) ialah jumlah masa yang dianggarkan diperlukan oleh pelajar untuk mencapai Course Learning Outcomes (CLO). Ia merangkumi pembelajaran bersemuka (F2F) dan pembelajaran bukan bersemuka (NF2F)."
         },
 
         {
             "id": "analogi",
-            "title": "2. Analogi",
+            "title": "Analogi",
             "content": "SLT membantu memastikan beban pembelajaran diagihkan secara realistik sepanjang semester dan selaras dengan jumlah kredit kursus yang ditawarkan."
         },
 
         {
             "id": "situasi",
-            "title": "3. Situasi",
+            "title": "Situasi",
             "content": "Secara amnya, 1 kredit akademik bersamaan 40 jam Student Learning Time (SLT). Oleh itu, kursus 2 kredit mempunyai jumlah 80 jam SLT yang perlu diagihkan kepada aktiviti F2F dan NF2F."
         },
 
         {
             "id": "distribution",
-            "title": "4. Pengagihan SLT",
+            "title": "Pengagihan SLT",
             "content": "Pengagihan SLT hendaklah mengambil kira kuliah, tutorial, amali, pembelajaran kendiri, tugasan, projek, pembentangan, ulang kaji dan peperiksaan supaya jumlah keseluruhan memenuhi jam SLT yang ditetapkan."
         },
 
         {
             "id": "application",
-            "title": "5. Aplikasi dalam Table 4",
-            "content": "Dalam Table 4, setiap topik perlu mempunyai agihan SLT yang sesuai berdasarkan tahap kesukaran pembelajaran dan bentuk pentaksiran. Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi."
+            "title": "Cara Aplikasi",
+            "content": "Dalam Table 4, Topik yang lebih kompleks lazimnya memerlukan masa NF2F yang lebih tinggi."
         },
 
         {
             "id": "kesalahanBiasa",
-            "title": "6. Kesalahan Biasa",
+            "title": "Kesalahan Biasa",
             "content": "Kesilapan yang sering berlaku ialah jumlah SLT tidak mencapai jumlah kredit kursus, pengagihan masa yang tidak realistik atau semua topik diberikan masa yang sama tanpa mengambil kira tahap kesukaran."
+        },
+
+        {
+            "id": "rujukan",
+            "title": "Rujukan Istilah",
+            "content": "Berdasarkan **garis panduan MQA**, setiap **1 kredit akademik bersamaan 40 jam** Student Learning Time (SLT). Jumlah SLT merangkumi pembelajaran bersemuka (F2F), pembelajaran bukan bersemuka (NF2F), pentaksiran serta pembelajaran kendiri.",
+
+            "table": {
+    "columns": [
+        {
+            "key": "kredit",
+            "label": "Kredit"
+        },
+        {
+            "key": "f2f",
+            "label": "SLT Bersemuka (F2F)"
+        },
+        {
+            "key": "nf2f",
+            "label": "SLT Bukan Bersemuka (NF2F)"
+        },
+        {
+            "key": "jumlah",
+            "label": "Jumlah SLT"
+        }
+    ],
+    "rows": [
+        {
+            "kredit": "2 Kredit",
+            "f2f": "36 jam",
+            "nf2f": "44 jam",
+            "jumlah": "80 jam"
+        },
+        {
+            "kredit": "3 Kredit",
+            "f2f": "36 jam",
+            "nf2f": "84 jam",
+            "jumlah": "120 jam"
+        },
+        {
+            "kredit": "4 Kredit",
+            "f2f": "36 jam",
+            "nf2f": "124 jam",
+            "jumlah": "160 jam"
+        }
+    ]
+}
+        },
+
+        {
+            "id": "nota",
+            "title": "Nota Penting",
+            "content": "SLT Bersemuka (F2F) merujuk kepada masa pembelajaran yang berlangsung secara langsung bersama pensyarah. SLT Bukan Bersemuka (NF2F) merangkumi pembelajaran kendiri, aktiviti dalam talian, tugasan, projek, ulang kaji dan pentaksiran. Kedua-dua komponen ini digabungkan bagi memenuhi jumlah Student Learning Time (SLT) yang ditetapkan untuk setiap kredit akademik."
         }
 
     ],
@@ -63,6 +116,7 @@
 
     "references": [
         "Malaysian Qualifications Agency (MQA)",
+        "Malaysian Qualifications Framework (MQF 2.0)",
         "Code of Practice for Programme Accreditation (COPPA)"
     ],
 

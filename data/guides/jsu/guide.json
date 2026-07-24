@@ -19,39 +19,46 @@
 
     {
       "id": "asas",
-      "title": "1. Asas",
+      "title": "Asas",
       "content": "Jadual Spesifikasi Ujian (JSU) ialah dokumen yang merancang pembinaan item pentaksiran berdasarkan hasil pembelajaran, kandungan kursus dan aras kognitif."
     },
 
     {
       "id": "analogi",
-      "title": "2. Analogi",
+      "title": "Analogi",
       "content": "JSU memastikan setiap soalan yang dibina mempunyai liputan kandungan yang sesuai serta mengukur Course Learning Outcomes (CLO) secara adil dan sistematik."
     },
 
     {
       "id": "situasi",
-      "title": "3. Situasi",
+      "title": "Situasi",
       "content": "Komponen utama JSU lazimnya merangkumi topik, CLO, aras Taksonomi Bloom, bilangan item, markah dan pemberat setiap bahagian."
     },
 
     {
       "id": "contoh",
-      "title": "4. Contoh",
+      "title": "Contoh",
       "content": "JSU dibina selepas perancangan pentaksiran dalam Table 4. Ia menjadi jambatan antara perancangan kursus dengan pembinaan instrumen peperiksaan atau ujian."
     },
 
     {
       "id": "tips",
-      "title": "5. Tips",
+      "title": "Tips",
       "content": "Dengan JSU, pensyarah dapat memastikan soalan peperiksaan mempunyai keseimbangan dari segi kandungan, tahap kesukaran dan hasil pembelajaran yang hendak diukur."
     },
 
     {
       "id": "kesalahanBiasa",
-      "title": "6. Kesalahan Biasa",
+      "title": "Kesalahan Biasa",
       "content": "Kesilapan yang sering berlaku ialah membina JSU selepas menyediakan soalan, tidak memetakan item kepada CLO atau memberikan pemberat yang tidak seimbang."
-    }
+    }, 
+
+    {
+            "id": "Rujukan",
+            "title": "Rujukan Istilah",
+
+            "content": "Contoh Rujukan istilah dalam table4."
+        }
 
   ],
 
