@@ -114,6 +114,14 @@
 
 }
 
+mark{
+    background:#FFE082;
+    color:inherit;
+    padding:1px 3px;
+    border-radius:4px;
+    font-weight:600;
+}
+
 /* ---------- Badge Colors ---------- */
 
 .badge-blue{background:#E8F1FF;color:#2563EB;}

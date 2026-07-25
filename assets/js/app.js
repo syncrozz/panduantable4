@@ -35,6 +35,29 @@ Renderer.renderGuide(guide);
 GuideTabs.init();
 ConceptLinks.init();
 
+const hash = window.location.hash;
+
+if (hash) {
+
+    requestAnimationFrame(() => {
+
+        const target = document.querySelector(hash);
+
+        if (target) {
+
+            target.scrollIntoView({
+
+                behavior: "smooth",
+                block: "start"
+
+            });
+
+        }
+
+    });
+
+}
+
     } catch (error) {
 
         console.error("Application Error:", error);
@@ -45,15 +68,121 @@ ConceptLinks.init();
 
 }
 
+/**
+ * Render search results.
+ */
+function renderSearchResults(results, matches) {
+
+    if (!matches.length) {
+
+        results.innerHTML = `
+            <div class="search-empty">
+                Tiada padanan dijumpai.
+            </div>
+        `;
+
+        return;
+
+    }
+
+    results.innerHTML = matches.map(guide => {
+
+        const section = guide.__matchedSection;
+
+        const href = section
+            ? `?guide=${guide.slug}#${section.id}`
+            : `?guide=${guide.slug}`;
+
+        const snippet = section
+            ? section.snippet
+            : (guide.__highlightSummary || guide.summary);
+
+        const sectionTitle = section
+            ? `
+                <div class="search-section">
+                    📍 ${section.title}
+                </div>
+            `
+            : "";
+
+        return `
+
+            <a class="search-item" href="${href}">
+
+                <strong>
+                    ${guide.__highlightTitle || guide.title}
+                </strong>
+
+                ${sectionTitle}
+
+                <small>
+                    ${snippet}
+                </small>
+
+            </a>
+
+        `;
+
+    }).join("");
+
+}
+
+/**
+ * Render search suggestions.
+ */
+function renderSuggestions(box, items, input) {
+
+    box.innerHTML = "";
+
+    if (!items.length) {
+
+        box.hidden = true;
+        return;
+
+    }
+
+    box.hidden = false;
+
+    items.forEach(item => {
+
+        const div = document.createElement("div");
+
+        div.className = "search-suggestion";
+
+        div.textContent = item;
+
+        div.addEventListener("click", () => {
+
+            input.value = item;
+            input.dispatchEvent(new Event("input"));
+
+            box.hidden = true;
+
+        });
+
+        box.appendChild(div);
+
+    });
+
+}
+
 function initSearch() {
 
     const input = document.getElementById("searchInput");
-
     const results = document.getElementById("searchResults");
+    const suggestionBox = document.getElementById("searchSuggestions");
 
     if (!input || !results) return;
 
-    input.addEventListener("input", async (e) => {
+    let guides = [];
+
+    GuideService.getAllGuides().then(data => {
+
+        guides = data;
+
+    });
+
+    input.addEventListener("input", e => {
 
         const keyword = e.target.value.trim();
 
@@ -61,56 +190,84 @@ function initSearch() {
 
             results.innerHTML = "";
 
+            if (suggestionBox) {
+
+                suggestionBox.hidden = true;
+                suggestionBox.innerHTML = "";
+
+            }
+
             return;
 
         }
 
-        const guides = await GuideService.getAllGuides();
+        const matches = SearchService.search(
+            guides,
+            keyword
+        );
 
-        const matches = SearchService.search(guides, keyword);
+        renderSearchResults(results, matches);
 
-        results.innerHTML = matches.map(guide => `
+        if (suggestionBox) {
 
-            <a class="search-item" href="?guide=${guide.slug}">
-                <strong>${guide.title}</strong><br>
-                <small>${guide.summary}</small>
-            </a>
+            const suggestions = SearchService.suggestions(
+                guides,
+                keyword
+            );
 
-        `).join("");
+            renderSuggestions(
+                suggestionBox,
+                suggestions,
+                input
+            );
+
+        }
 
     });
 
-        // Tutup result apabila klik di luar search
-
-    document.addEventListener("click", (e) => {
+    document.addEventListener("click", e => {
 
         if (!e.target.closest(".search-box")) {
 
             results.innerHTML = "";
 
+            if (suggestionBox) {
+
+                suggestionBox.hidden = true;
+
+            }
+
         }
 
     });
 
-    // Tekan ESC untuk tutup search result
-
-    document.addEventListener("keydown", (e) => {
+    document.addEventListener("keydown", e => {
 
         if (e.key === "Escape") {
 
+            input.blur();
+
             results.innerHTML = "";
 
-            input.blur();
+            if (suggestionBox) {
+
+                suggestionBox.hidden = true;
+
+            }
 
         }
 
     });
-
-    // Tutup result selepas pengguna klik salah satu hasil
 
     results.addEventListener("click", () => {
 
         results.innerHTML = "";
+
+        if (suggestionBox) {
+
+            suggestionBox.hidden = true;
+
+        }
 
     });
 

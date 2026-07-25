@@ -28,14 +28,6 @@
     "title": "Pengenalan",
 
     "blocks": [
-        {
-            "image": {
-                "src": "guides/table4/T4008.webp",
-                "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
-            },
-
-            "content": "Table 4 boleh dianggap sebagai **perlembagaan** dalam negara kita. Sebelum membuat sebarang perubahan pada Detailed Syllabus, Scheme of Work (SOW), aktiviti PdP atau pentaksiran, sila rujuk dahulu Table 4 untuk memastikan perubahan tersebut masih selaras dengan perancangan asal kursus."
-        },
 
         {
             "image": {
@@ -49,52 +41,16 @@
 },
 
         {
-            "id": "konsep",
-            "title": "Asas",
+            "id": "anologi",
+            "title": "Anologi",
 
             "image": {
-                "src": "guides/table4/T4009.webp",
-                "alt": "Konsep Asas Table 4"
+                "src": "guides/table4/T4008.webp",
+                "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
             },
 
-            "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut."
-
+            "content": "Table 4 boleh dianggap sebagai **perlembagaan** dalam negara kita. Sebelum membuat sebarang perubahan pada Detailed Syllabus, Scheme of Work (SOW), aktiviti PdP atau pentaksiran, sila rujuk dahulu Table 4 untuk memastikan perubahan tersebut masih selaras dengan perancangan asal kursus."
         },
-
-        {
-    "id": "hubungan",
-    "title": "Hubungan Komponen",
-
-    "table": {
-    "columns": [
-        {
-            "key": "komponen",
-            "label": "Komponen"
-        },
-        {
-            "key": "hubungan",
-            "label": "Mesti Berkaitan dengan CLO"
-        }
-    ],
-
-    "rows": [
-        {
-            "komponen": "Kandungan",
-            "hubungan": "Mengajar konsep integriti"
-        },
-        {
-            "komponen": "Aktiviti Pembelajaran",
-            "hubungan": "Perbincangan kes integriti"
-        },
-        {
-            "komponen": "Pentaksiran",
-            "hubungan": "Soalan atau tugasan tentang integriti"
-        }
-    ]
-},
-
-    "content": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO)."
-},
 
         {
     "id": "contoh",
