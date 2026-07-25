@@ -22,68 +22,111 @@ const panelItems = guide.sections
     }));
 
 const sections = panelItems
-    .map((section, index) => `
+    .map((section, index) => {
 
-        <section
-            id="${section.id}"
-            class="guide-panel ${index === 0 ? "active" : ""}"
-            data-tab="${section.id}">
+        // =========================================================
+        // NEW FORMAT (blocks[])
+        // =========================================================
 
-            <div class="guide-content">
+        const blocks = section.blocks
+            ? section.blocks.map(block => `
 
-                ${
-    section.image
-        ? `
-        <div class="guide-hero">
+                ${block.image ? `
+                <div class="guide-hero">
 
-            <img
-                class="guide-hero-image"
-                src="assets/images/${section.image.src}"
-                alt="${section.image.alt ?? ""}"
-                loading="lazy">
+                    <img
+                        class="guide-hero-image"
+                        src="assets/images/${block.image.src}"
+                        alt="${block.image.alt ?? ""}"
+                        loading="lazy">
 
-            ${
-                section.image.explanation
-                    ? `
+                    ${block.image.explanation ? `
+                    <div class="guide-hero-description">
+
+                        ${MarkdownRenderer.render(block.image.explanation)}
+
+                    </div>
+                    ` : ""}
+
+                </div>
+                ` : ""}
+
+                ${block.note ? `
+                <div class="guide-note guide-note-${block.note.type ?? "info"}">
+
+                    ${MarkdownRenderer.render(block.note.content)}
+
+                </div>
+                ` : ""}
+
+                ${block.table ? GuideTable(block.table) : ""}
+
+                ${block.html ?? ""}
+
+                ${MarkdownRenderer.render(block.content ?? "")}
+
+            `).join("")
+
+            // =========================================================
+            // BACKWARD COMPATIBLE (image + content)
+            // =========================================================
+
+            : `
+
+                ${section.image ? `
+                <div class="guide-hero">
+
+                    <img
+                        class="guide-hero-image"
+                        src="assets/images/${section.image.src}"
+                        alt="${section.image.alt ?? ""}"
+                        loading="lazy">
+
+                    ${section.image.explanation ? `
                     <div class="guide-hero-description">
 
                         ${MarkdownRenderer.render(section.image.explanation)}
 
                     </div>
-                    `
-                    : ""
-            }
+                    ` : ""}
 
-        </div>
-        `
-        : ""
-}
+                </div>
+                ` : ""}
 
-                ${
-                    section.note
-                        ? `
-                        <div class="guide-note guide-note-${section.note.type ?? "info"}">
+                ${section.note ? `
+                <div class="guide-note guide-note-${section.note.type ?? "info"}">
 
-                            ${MarkdownRenderer.render(section.note.content)}
+                    ${MarkdownRenderer.render(section.note.content)}
 
-                        </div>
-                        `
-                        : ""
-                }
+                </div>
+                ` : ""}
 
-                ${
-                    section.table
-                        ? GuideTable(section.table)
-                        : ""
-                }
+                ${section.table ? GuideTable(section.table) : ""}
+
+                ${section.html ?? ""}
 
                 ${MarkdownRenderer.render(section.content ?? "")}
 
-            </div>
+            `;
 
-        </section>
+        return `
 
-    `)
+            <section
+                id="${section.id}"
+                class="guide-panel ${index === 0 ? "active" : ""}"
+                data-tab="${section.id}">
+
+                <div class="guide-content">
+
+                    ${blocks}
+
+                </div>
+
+            </section>
+
+        `;
+
+    })
     .join("");
 
 /* =========================================================

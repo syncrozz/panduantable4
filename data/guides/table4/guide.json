@@ -9,7 +9,6 @@
     "heroImage": {
         "src": "guides/table4/T4001.webp",
         "alt": "Table 4 sebagai Perlembagaan Kursus",
-
         "explanation": "Table 4 merupakan dokumen induk dalam Outcome-Based Education (OBE) yang menjadi asas kepada keseluruhan reka bentuk kursus. Semua komponen seperti Course Learning Outcomes (CLO), Programme Learning Outcomes (PLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT) dirancang secara saling berkaitan bagi memastikan hasil pembelajaran dapat dicapai secara sistematik.\n\nMelalui infografik ini dapat dilihat bahawa perubahan pada Table 4 akan memberi kesan kepada pelbagai dokumen lain seperti pelan mingguan, silibus, JSU, rubrik, soalan pentaksiran dan aktiviti CQI. Oleh itu, Table 4 sering dianggap sebagai *Single Source of Truth* yang menjadi rujukan utama dalam pembangunan dan pelaksanaan sesuatu kursus."
     },
 
@@ -28,27 +27,40 @@
     "id": "pengenalan",
     "title": "Pengenalan",
 
-    "content": "Table 4 boleh dianggap sebagai **perlembagaan** dalam negara kita. Sebelum membuat sebarang perubahan pada Detailed Syllabus, Scheme of Work (SOW), aktiviti PdP atau pentaksiran, Sila rujuk dahulu Table 4 untuk memastikan perubahan tersebut masih selaras dengan perancangan asal kursus.",
+    "blocks": [
+        {
+            "image": {
+                "src": "guides/table4/T4008.webp",
+                "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
+            },
 
-    "image": {
-        "src": "guides/table4/T4008.webp",
-        "alt": "Hubungan antara CLO, Kandungan, PdP, Pentaksiran dan SLT dalam Table 4"
-    }
+            "content": "Table 4 boleh dianggap sebagai **perlembagaan** dalam negara kita. Sebelum membuat sebarang perubahan pada Detailed Syllabus, Scheme of Work (SOW), aktiviti PdP atau pentaksiran, sila rujuk dahulu Table 4 untuk memastikan perubahan tersebut masih selaras dengan perancangan asal kursus."
+        },
+
+        {
+            "image": {
+                "src": "guides/table4/T4002.webp",
+                "alt": "Table 4 sebagai pelan rumah"
+            },
+
+            "content": "Table 4 ibarat **pelan rumah**. Sebelum rumah dibina, pelan disediakan untuk menentukan reka bentuk, susun atur ruang dan spesifikasi pembinaan. Begitu juga Table 4, ia menjadi pelan induk yang merancang hasil pembelajaran (CLO), kandungan, kaedah pengajaran, pentaksiran dan pengagihan SLT sebelum sesuatu kursus dilaksanakan."
+        }
+    ]
 },
 
-{
-    "id": "konsep",
-    "title": "Konsep Asas",
+        {
+            "id": "konsep",
+            "title": "Konsep Asas",
 
-    "image": {
-        "src": "guides/table4/T4009.webp",
-        "alt": "Konsep Asas Table 4"
-    },
+            "image": {
+                "src": "guides/table4/T4009.webp",
+                "alt": "Konsep Asas Table 4"
+            },
 
-    "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
+            "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
 
-    "html": "<p>Secara ringkas, terdapat <strong>empat konsep utama</strong>:</p><table class=\"table-standard\">...</table>"
-},
+            "html": "<p>Secara ringkas, terdapat <strong>empat konsep utama</strong>:</p><table class=\"table-standard\">...</table>"
+        },
 
         {
             "id": "hubungan",
@@ -81,13 +93,13 @@
             },
 
             "content": "Antara kesilapan yang sering berlaku ialah CLO tidak boleh diukur, pentaksiran tidak sejajar dengan CLO, kandungan kursus tidak menyokong hasil pembelajaran dan pengagihan Student Learning Time (SLT) yang tidak realistik."
-        }, 
+        },
 
         {
-            "id": "Rujukan",
+            "id": "rujukan",
             "title": "Rujukan Istilah",
 
-            "content": "Contoh Rujukan istilah dalam table4."
+            "content": "Contoh rujukan istilah dalam Table 4."
         }
 
     ],
