@@ -58,6 +58,10 @@
 
     vertical-align:top;
 
+    font-size:14px;
+
+    line-height:1.7;
+
 }
 
 .guide-table tbody tr:nth-child(even){
@@ -218,7 +222,7 @@
 
         content:"◀";
 
-        font-size:1.4rem;
+        font-size:0.8rem;
 
         color:var(--primary);
 
@@ -228,7 +232,7 @@
 
         content:"▶";
 
-        font-size:1.4rem;
+        font-size:0.8rem;
 
         color:var(--primary);
 
