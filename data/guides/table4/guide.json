@@ -50,37 +50,73 @@
 
         {
             "id": "konsep",
-            "title": "Konsep Asas",
+            "title": "Asas",
 
             "image": {
                 "src": "guides/table4/T4009.webp",
                 "alt": "Konsep Asas Table 4"
             },
 
-            "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut.",
+            "content": "Table 4 dibina berdasarkan CLO yang telah ditetapkan. CLO merupakan hasil pembelajaran kursus yang menjelaskan perkara yang pelajar sepatutnya tahu, faham dan mampu lakukan apabila selesai mengikuti kursus tersebut."
 
-            "html": "<p>Secara ringkas, terdapat <strong>empat konsep utama</strong>:</p><table class=\"table-standard\">...</table>"
         },
 
         {
-            "id": "hubungan",
-            "title": "Hubungan Komponen",
+    "id": "hubungan",
+    "title": "Hubungan Komponen",
 
-            "content": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO)."
+    "table": {
+    "columns": [
+        {
+            "key": "komponen",
+            "label": "Komponen"
         },
+        {
+            "key": "hubungan",
+            "label": "Mesti Berkaitan dengan CLO"
+        }
+    ],
+
+    "rows": [
+        {
+            "komponen": "Kandungan",
+            "hubungan": "Mengajar konsep integriti"
+        },
+        {
+            "komponen": "Aktiviti Pembelajaran",
+            "hubungan": "Perbincangan kes integriti"
+        },
+        {
+            "komponen": "Pentaksiran",
+            "hubungan": "Soalan atau tugasan tentang integriti"
+        }
+    ]
+},
+
+    "content": "Setiap komponen dalam Table 4 perlu mempunyai hubungan yang jelas bagi memastikan setiap aktiviti pembelajaran dan pentaksiran benar-benar menyokong pencapaian Course Learning Outcomes (CLO)."
+},
 
         {
-            "id": "contoh",
-            "title": "Contoh",
+    "id": "contoh",
+    "title": "Contoh",
 
-            "content": "Sebagai contoh, CLO1 boleh dinilai melalui Kuiz, CLO2 melalui Pembentangan, manakala CLO3 melalui Projek Akhir. Setiap pentaksiran dipilih berdasarkan hasil pembelajaran yang ingin dicapai."
-        },
+    "blocks": [
+        {
+            "image": {
+                "src": "guides/table4/T4004.webp",
+                "alt": "Contoh pembinaan Table 4"
+            },
+
+            "content": " "
+        }
+    ]
+},
 
         {
-            "id": "panduan",
-            "title": "Panduan Membina",
+            "id": "staffAcademics",
+            "title": "Name of Staff Academics",
 
-            "content": "Langkah pertama membina Table 4 ialah mengenal pasti Course Learning Outcomes (CLO). Selepas itu barulah kandungan kursus, strategi PdP, pentaksiran dan pengagihan Student Learning Time (SLT) disusun secara selaras."
+            "content": "**MQA tidak menetapkan** siapa atau berapa ramai \"Academic Staff\" perlu disenaraikan. Secara logiknya, ruangan ini lebih sesuai diisi oleh **seorang atau dua orang staf akademik yang bertanggungjawab**, bukannya semua pensyarah yang mengajar kursus tersebut."
         },
 
         {
@@ -93,13 +129,6 @@
             },
 
             "content": "Antara kesilapan yang sering berlaku ialah CLO tidak boleh diukur, pentaksiran tidak sejajar dengan CLO, kandungan kursus tidak menyokong hasil pembelajaran dan pengagihan Student Learning Time (SLT) yang tidak realistik."
-        },
-
-        {
-            "id": "rujukan",
-            "title": "Rujukan Istilah",
-
-            "content": "Contoh rujukan istilah dalam Table 4."
         }
 
     ],
