@@ -203,9 +203,9 @@ return `
                     href="?guide=${previous.slug}"
                     aria-label="${previous.title}">
 
-                    <span class="guide-pagination-label">
+                    <span class="guide-pagination-label" aria-hidden="true">
 
-                        ◀ Sebelumnya
+                        ← 
 
                     </span>
 
@@ -224,9 +224,9 @@ return `
                     href="?guide=${next.slug}"
                     aria-label="${next.title}">
 
-                    <span class="guide-pagination-label">
+                    <span class="guide-pagination-label" aria-hidden="true">
 
-                        Seterusnya ▶
+                         →
 
                     </span>
 

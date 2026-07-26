@@ -450,11 +450,11 @@
 
 .guide-pagination{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(2,minmax(0,1fr));
+    justify-content:space-between;
 
-    gap:20px;
+    align-items:center;
 
     margin-top:48px;
 
@@ -468,31 +468,36 @@
 
     align-items:center;
 
-    padding:26px 28px;
+    justify-content:center;
 
-    background:#fff;
+    width:48px;
 
-    border:1px solid var(--border);
-
-    border-radius:18px;
+    height:48px;
 
     text-decoration:none;
 
-    color:inherit;
+    color:var(--text-light);
 
-    box-shadow:0 8px 24px rgba(15,23,42,.06);
+    background:transparent;
 
-    transition:.25s;
+    border:none;
+
+    border-radius:50%;
+
+    transition:
+        color .2s ease,
+        transform .2s ease,
+        background .2s ease;
 
 }
 
 .guide-pagination-card:hover{
 
-    transform:translateY(-4px);
+    color:var(--primary);
 
-    border-color:var(--primary);
+    background:#F8FAFC;
 
-    box-shadow:0 18px 40px rgba(15,23,42,.12);
+    transform:scale(1.08);
 
 }
 
@@ -510,15 +515,15 @@
 
 .guide-pagination-label{
 
-    font-size:.82rem;
+    font-size:1.2rem;
 
     font-weight:700;
 
-    letter-spacing:.08em;
+    color:inherit;
 
-    text-transform:uppercase;
+    letter-spacing:0;
 
-    color:var(--text-light);
+    text-transform:none;
 
 }
 
@@ -528,25 +533,27 @@
 
     left:50%;
 
-    bottom:calc(100% + 18px);
+    bottom:calc(100% + 14px);
 
     transform:translateX(-50%) translateY(8px);
 
-    min-width:260px;
+    min-width:220px;
 
-    max-width:320px;
+    max-width:300px;
 
-    padding:18px 20px;
+    padding:14px 18px;
 
     border:1px solid var(--border);
 
-    border-radius:16px;
+    border-radius:14px;
 
     background:#fff;
 
     color:var(--text);
 
     text-align:center;
+
+    font-size:.85rem;
 
     font-weight:600;
 
@@ -558,7 +565,7 @@
 
     pointer-events:none;
 
-    transition:.22s;
+    transition:.2s;
 
     z-index:20;
 
@@ -576,7 +583,7 @@
 
     transform:translateX(-50%);
 
-    border:10px solid transparent;
+    border:8px solid transparent;
 
     border-top-color:#fff;
 
@@ -596,13 +603,7 @@
 
     .guide-pagination{
 
-        grid-template-columns:1fr;
-
-    }
-
-    .guide-next{
-
-        justify-content:flex-start;
+        margin-top:40px;
 
     }
 
