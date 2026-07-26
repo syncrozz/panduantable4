@@ -18,51 +18,39 @@
     "sections": [
 
         {
-            "id": "hubungan",
-            "title": "Hubungan dengan Table 4",
+    "id": "asas-usul",
+    "title": "Asas Usul",
 
-            "content": "Constructive Alignment merupakan prinsip yang menjadi asas kepada pembinaan Table 4. Jadual berikut menunjukkan bagaimana prinsip ini diterjemahkan kepada dokumen reka bentuk kursus dalam Outcome-Based Education (OBE).",
+    "image": {
+        "src": "guides/table4/T4018.webp",
+        "alt": "Ilustrasi asas usul Constructive Alignment yang diperkenalkan oleh Profesor John Biggs sebagai prinsip reka bentuk kursus dalam Outcome-Based Education (OBE)."
+    },
 
-            "table": {
-                "columns": [
-                    {
-                        "key": "level",
-                        "label": "Level",
-                        "width": "90px"
-                    },
-                    {
-                        "key": "component",
-                        "label": "Komponen",
-                        "width": "260px"
-                    },
-                    {
-                        "key": "function",
-                        "label": "Fungsi"
-                    }
-                ],
+    "content": "Constructive Alignment diperkenalkan oleh **Profesor John Biggs** pada awal tahun 1990-an sebagai satu prinsip reka bentuk kursus yang memastikan hasil pembelajaran (Learning Outcomes), aktiviti pengajaran dan pembelajaran (PdP), serta pentaksiran disusun secara saling berkaitan. Pendekatan ini kemudian menjadi antara prinsip utama dalam pelaksanaan **Outcome-Based Education (OBE)** dan digunakan secara meluas oleh institusi pengajian tinggi di seluruh dunia, termasuk dalam kerangka jaminan kualiti yang dirujuk oleh **Malaysian Qualifications Agency (MQA)**."
+},
 
-                "rows": [
-                    {
-                        "level": {
-                            "badge": "1"
-                        },
-                        "component": "Constructive Alignment",
-                        "function": "Prinsip reka bentuk kursus."
-                    },
-                    {
-                        "level": {
-                            "badge": "2"
-                        },
-                        "component": "Table 4",
-                        "function": "Dokumen reka bentuk kursus."
-                    }
-                ]
+        {
+            "id": "anologi",
+            "title": "Anologi",
+
+            "image": {
+                "src": "guides/table4/T4017.webp",
+                "alt": "Ilustrasi hubungan antara Constructive Alignment sebagai prinsip asas Outcome-Based Education (OBE) dengan Table 4 sebagai dokumen reka bentuk kursus yang menyelaraskan CLO, kandungan, PdP, pentaksiran dan Student Learning Time (SLT)."
             },
 
-            "note": {
-                "type": "info",
-                "content": "Constructive Alignment **bukanlah satu dokumen**, tetapi prinsip yang memandu pembinaan Table 4 bagi memastikan hasil pembelajaran, aktiviti pengajaran dan pembelajaran (PdP), serta pentaksiran sentiasa saling menyokong."
-            }
+            "content": "Constructive Alignment boleh diibaratkan sebagai **pelan induk** dalam pembinaan sesebuah kursus. Ia merupakan prinsip yang memastikan semua komponen kursus saling berkaitan dan menyokong antara satu sama lain. Table 4 pula ialah dokumen yang menterjemahkan prinsip tersebut kepada perancangan sebenar melalui penyelarasan Course Learning Outcomes (CLO), kandungan kursus, strategi pengajaran dan pembelajaran (PdP), pentaksiran serta Student Learning Time (SLT)."
+        }, 
+
+        {
+            "id": "contoh",
+            "title": "Contoh",
+
+            "image": {
+                "src": "guides/table4/T4019.webp",
+                "alt": ""
+            },
+
+            "content": "Prinsip **Constructive Alignment** secara tersirat melalui pemetaan konsisten antara CLO dengan PLO, kandungan kursus, kaedah PdP, dan pentaksiran. Selain itu, kesemua komponen ini dihubungkan secara terus dengan SLT bagi memastikan struktur kursus kekal tersusun."
         }
 
     ],
@@ -78,10 +66,5 @@
         "John Biggs & Catherine Tang",
         "Malaysian Qualifications Agency (MQA)",
         "Code of Practice for Programme Accreditation (COPPA)"
-    ],
-
-    "order": 2,
-    "version": "2.0.0",
-    "lastUpdated": "2026-07-24",
-    "status": "published"
+    ]
 }

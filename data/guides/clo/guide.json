@@ -17,22 +17,39 @@
     "sections": [
 
         {
-            "id": "asas",
-            "title": "Asas",
-            "content": "Course Learning Outcomes (CLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu kursus. CLO menjadi asas kepada keseluruhan pembinaan Table 4."
-        },
+    "id": "asas",
+    "title": "Asas",
+
+    "image": {
+        "src": "guides/table4/T4020.webp",
+        "alt": "Ilustrasi Course Learning Outcomes (CLO) sebagai hasil pembelajaran kursus yang menjadi asas pembinaan Table 4 dan rujukan utama dalam Outcome-Based Education (OBE)."
+    },
+
+    "content": "Course Learning Outcomes (CLO) ialah hasil pembelajaran yang perlu dicapai oleh pelajar selepas menamatkan sesuatu kursus. CLO menjadi **asas** kepada keseluruhan pembinaan Table 4."
+},
 
         {
-            "id": "analogi",
-            "title": "Analogi",
-            "content": "CLO menerangkan pengetahuan, kemahiran dan sikap yang perlu dikuasai oleh pelajar. Setiap CLO hendaklah boleh diukur, jelas dan sejajar dengan Programme Learning Outcomes (PLO)."
-        },
+    "id": "analogi",
+    "title": "Analogi",
 
-        {
-            "id": "situasi",
-            "title": "Situasi",
-            "content": "CLO hendaklah ditulis menggunakan kata kerja yang boleh diukur berdasarkan Taksonomi Bloom, mengandungi kandungan pembelajaran dan tahap pencapaian yang diharapkan."
-        },
+    "image": {
+        "src": "guides/table4/T4021.webp",
+        "alt": "Analogi penetapan matlamat melalui Course Learning Outcomes (CLO)"
+    },
+
+     "content": "Seorang bapa tidak berharap anaknya menjadi doktor secara kebetulan. Beliau **terlebih dahulu menetapkan matlamat** itu, kemudian memilih pendidikan, latihan dan penilaian yang sesuai sehingga anak benar-benar mencapai matlamat tersebut. **Sama seperti itu**, CLO ialah pernyataan yang menerangkan apakah yang pelajar sepatutnya mampu tunjukkan pada akhir sesuatu kursus dari segi pengetahuan, kemahiran dan nilai."
+     },
+
+        { "id": "situasi",
+    "title": "Situasi",
+
+    "image": {
+        "src": "guides/table4/T4022.webp",
+        "alt": "Pensyarah merancang pembelajaran berdasarkan Course Learning Outcomes (CLO)"
+    },
+
+    "content": "Selepas menetapkan matlamat, pensyarah perlu merancang bagaimana pelajar dapat mencapainya. Oleh itu, setiap CLO hendaklah ditulis menggunakan kata kerja yang boleh diukur, menerangkan kandungan pembelajaran serta tahap pencapaian yang diharapkan supaya pencapaiannya dapat dinilai dengan jelas."
+},
 
         {
             "id": "tips",
@@ -50,7 +67,72 @@
             "id": "kesalahanBiasa",
             "title": "Kesalahan Biasa",
             "content": "Kesilapan yang sering berlaku ialah menggunakan kata kerja yang tidak boleh diukur, CLO terlalu umum, terlalu banyak dalam satu ayat atau tidak sejajar dengan pentaksiran."
-        }
+        }, 
+
+        {
+    "id": "rujukanKod",
+    "title": "Rujukan Kod",
+    "content": "Kod C1 hingga C5 yang digunakan dalam Table 4 adalah berpandukan Domain Pembelajaran MQF 2.0. Jadual berikut menunjukkan padanan kod tersebut dengan nama domain asal dalam MQF.",
+
+    "table": {
+        "columns": [
+            {
+                "key": "kod",
+                "label": "Kod dalam Table 4"
+            },
+            {
+                "key": "bahagian",
+                "label": "Bahagian Asal dalam MQF 2.0"
+            }
+        ],
+        "rows": [
+            {
+                "kod": "C1",
+                "bahagian": "Knowledge and Understanding"
+            },
+            {
+                "kod": "C2",
+                "bahagian": "Cognitive Skills"
+            },
+            {
+                "kod": "C3A",
+                "bahagian": "Practical Skills"
+            },
+            {
+                "kod": "C3B",
+                "bahagian": "Interpersonal Skills"
+            },
+            {
+                "kod": "C3C",
+                "bahagian": "Communication Skills"
+            },
+            {
+                "kod": "C3D",
+                "bahagian": "Digital Skills"
+            },
+            {
+                "kod": "C3E",
+                "bahagian": "Numeracy Skills"
+            },
+            {
+                "kod": "C3F",
+                "bahagian": "Leadership, Autonomy and Responsibility"
+            },
+            {
+                "kod": "C4A",
+                "bahagian": "Personal Skills"
+            },
+            {
+                "kod": "C4B",
+                "bahagian": "Entrepreneurial Skills"
+            },
+            {
+                "kod": "C5",
+                "bahagian": "Ethics and Professionalism"
+            }
+        ]
+    }
+}
 
     ],
 
@@ -63,10 +145,6 @@
     "references": [
         "Malaysian Qualifications Agency (MQA)",
         "Code of Practice for Programme Accreditation (COPPA)"
-    ],
+    ]
 
-    "order": 10,
-    "version": "2.0.0",
-    "lastUpdated": "2026-07-24",
-    "status": "published"
 }

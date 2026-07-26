@@ -65,10 +65,5 @@
     "references": [
         "Malaysian Qualifications Agency (MQA)",
         "Code of Practice for Programme Accreditation (COPPA)"
-    ],
-
-    "order": 12,
-    "version": "2.0.0",
-    "lastUpdated": "2026-07-24",
-    "status": "published"
+    ]
 }

@@ -14,31 +14,28 @@
 
     "keywords": [
         "Table 4",
-        "OBE",
-        "MQA",
+        "OBE",       "MQA",
         "CLO",
         "PLO",
         "SLT"
     ],
 
     "sections": [
-
         {
-    "id": "pengenalan",
-    "title": "Pengenalan",
+            "id": "pengenalan",
+            "title": "Pengenalan",
 
-    "blocks": [
+            "blocks": [
+                {
+                    "image": {
+                        "src": "guides/table4/T4002.webp",
+                        "alt": "Table 4 sebagai pelan rumah"
+                    },
 
-        {
-            "image": {
-                "src": "guides/table4/T4002.webp",
-                "alt": "Table 4 sebagai pelan rumah"
-            },
-
-            "content": "Table 4 ibarat **pelan rumah**. Sebelum rumah dibina, pelan disediakan untuk menentukan reka bentuk, susun atur ruang dan spesifikasi pembinaan. Begitu juga Table 4, ia menjadi pelan induk yang merancang hasil pembelajaran (CLO), kandungan, kaedah pengajaran, pentaksiran dan pengagihan SLT sebelum sesuatu kursus dilaksanakan."
-        }
-    ]
-},
+                    "content": "Table 4 ibarat **pelan rumah**. Sebelum rumah dibina, pelan disediakan untuk menentukan reka bentuk, susun atur ruang dan spesifikasi pembinaan. Begitu juga Table 4, ia menjadi pelan induk yang merancang hasil pembelajaran (CLO), kandungan, kaedah pengajaran, pentaksiran dan pengagihan SLT sebelum sesuatu kursus dilaksanakan."
+                }
+            ]
+        },
 
         {
             "id": "anologi",
@@ -53,24 +50,29 @@
         },
 
         {
-    "id": "contoh",
-    "title": "Contoh",
+            "id": "contoh",
+            "title": "Contoh",
 
-    "blocks": [
-        {
-            "image": {
-                "src": "guides/table4/T4004.webp",
-                "alt": "Contoh pembinaan Table 4"
-            },
+            "blocks": [
+                {
+                    "image": {
+                        "src": "guides/table4/T4004.webp",
+                        "alt": "Contoh pembinaan Table 4"
+                    },
 
-            "content": " "
-        }
-    ]
-},
+                    "content": " "
+                }
+            ]
+        },
 
         {
             "id": "staffAcademics",
-            "title": "Name of Staff Academics",
+            "title": "Staff Academics",
+
+            "image": {
+                "src": "guides/table4/T4016.webp",
+                "alt": "Ilustrasi Name(s) of Academic Staff. MQA tidak menetapkan bilangan staf akademik yang perlu disenaraikan; memadai seorang atau dua orang pensyarah yang bertanggungjawab membangunkan dan menyelenggara Table 4."
+            },
 
             "content": "**MQA tidak menetapkan** siapa atau berapa ramai \"Academic Staff\" perlu disenaraikan. Secara logiknya, ruangan ini lebih sesuai diisi oleh **seorang atau dua orang staf akademik yang bertanggungjawab**, bukannya semua pensyarah yang mengajar kursus tersebut."
         },
@@ -84,9 +86,51 @@
                 "content": "**Perhatian:** Elakkan kesilapan berikut semasa membina Table 4."
             },
 
-            "content": "Antara kesilapan yang sering berlaku ialah CLO tidak boleh diukur, pentaksiran tidak sejajar dengan CLO, kandungan kursus tidak menyokong hasil pembelajaran dan pengagihan Student Learning Time (SLT) yang tidak realistik."
-        }
+            "table": {
+                "columns": [
+                    {
+                        "key": "bil",
+                        "label": "Bil"
+                    },
+                    {
+                        "key": "kesilapan",
+                        "label": "Kesilapan Paling Kritikal"
+                    },
+                    {
+                        "key": "sebab",
+                        "label": "Mengapa Kritikal?"
+                    }
+                ],
 
+                "rows": [
+                    {
+                        "bil": "1",
+                        "kesilapan": "CLO tidak boleh diukur.",
+                        "sebab": "CLO menggunakan kata kerja yang kabur atau tidak sepadan dengan aras Taksonomi Bloom menyebabkan hasil pembelajaran tidak boleh dinilai."
+                    },
+                    {
+                        "bil": "2",
+                        "kesilapan": "CLO tidak selaras dengan PLO.",
+                        "sebab": "Pemetaan CLO kepada PLO dibuat secara tidak tepat atau terlalu banyak, menyebabkan hasil kursus tidak menyokong hasil program."
+                    },
+                    {
+                        "bil": "3",
+                        "kesilapan": "Pentaksiran tidak mengukur CLO.",
+                        "sebab": "Kaedah pentaksiran tidak benar-benar mengukur apa yang dinyatakan dalam CLO, lalu menjejaskan Constructive Alignment."
+                    },
+                    {
+                        "bil": "4",
+                        "kesilapan": "SLT tidak logik atau jumlahnya tidak tepat.",
+                        "sebab": "Agihan Student Learning Time (SLT) tidak sepadan dengan beban pembelajaran atau jumlah keseluruhannya tidak memenuhi keperluan kredit kursus."
+                    },
+                    {
+                        "bil": "5",
+                        "kesilapan": "Tiada Constructive Alignment antara CLO → Kandungan → PdP → Pentaksiran → SLT.",
+                        "sebab": "Komponen Table 4 dibina secara berasingan tanpa hubungan yang jelas, menyebabkan keseluruhan reka bentuk kursus menjadi tidak selaras dan sukar membuktikan pencapaian CLO."
+                    }
+                ]
+            }
+        }
     ],
 
     "related": [
@@ -99,10 +143,5 @@
     "references": [
         "Malaysian Qualifications Agency (MQA)",
         "Code of Practice for Programme Accreditation (COPPA)"
-    ],
-
-    "order": 1,
-    "version": "2.1.0",
-    "lastUpdated": "2026-07-24",
-    "status": "published"
+    ]
 }

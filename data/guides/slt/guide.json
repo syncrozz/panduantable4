@@ -82,10 +82,6 @@
         "Malaysian Qualifications Agency (MQA)",
         "Malaysian Qualifications Framework (MQF 2.0)",
         "Code of Practice for Programme Accreditation (COPPA)"
-    ],
-
-    "order": 13,
-    "version": "2.0.0",
-    "lastUpdated": "2026-07-24",
-    "status": "published"
+    ]
+    
 }
